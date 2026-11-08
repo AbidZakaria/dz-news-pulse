@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: int_article_tokens
+    description: One row per (article, field, word) after normalisation. Stop-words are flagged.
+    columns:
+      - name: article_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_articles')
+              field: article_id
+      - name: token
+        data_tests: [not_null]
+
+  - name: int_article_topics
+    description: Exactly one topic per article, chosen by keyword score.
+    columns:
+      - name: article_id
+        data_tests: [unique, not_null]
+      - name: topic_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('topics')
+              field: topic_id

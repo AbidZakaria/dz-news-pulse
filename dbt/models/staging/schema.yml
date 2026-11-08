@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_articles
+    description: Cleaned articles, one row per article.
+    columns:
+      - name: article_id
+        description: Primary key (hash of the canonical URL).
+        data_tests: [unique, not_null]
+      - name: source_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('news_sources')
+              field: source_id
+      - name: title
+        data_tests: [not_null]
+      - name: language
+        data_tests:
+          - accepted_values:
+              values: ['fr', 'ar']
+      - name: published_at
+        data_tests: [not_null]
+      - name: published_date
+        data_tests: [not_null]

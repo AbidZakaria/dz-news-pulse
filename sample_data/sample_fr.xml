@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC test data (not real news). Used by unit tests and `make load-sample`. -->
+<rss version="2.0">
+  <channel>
+    <title>Sample FR feed</title>
+    <item>
+      <title>Le ministre des Finances annonce une hausse du budget d'investissement</title>
+      <link>https://example.dz/economie/budget-investissement-2027/?utm_source=rss</link>
+      <description><![CDATA[<p>Le gouvernement prévoit de soutenir la croissance et les exportations hors hydrocarbures.</p><p>The post Budget appeared first on Example.</p>]]></description>
+      <pubDate>Sat, 07 Nov 2026 09:30:00 +0000</pubDate>
+      <category>Économie</category>
+    </item>
+    <item>
+      <title>Le ministre des Finances annonce une hausse du budget d'investissement</title>
+      <link>https://example.dz/economie/budget-investissement-2027</link>
+      <description>Doublon du même article (même URL sans paramètre de suivi).</description>
+      <pubDate>Sat, 07 Nov 2026 09:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Le MC Alger bat le CR Belouizdad dans un match très serré</title>
+      <link>https://example.dz/sport/mca-crb-match</link>
+      <description>Le championnat de Ligue 1 offre un derby spectaculaire devant des milliers de supporters au stade.</description>
+      <pubDate>Sat, 07 Nov 2026 20:15:00 +0000</pubDate>
+      <category>Football</category>
+    </item>
+    <item>
+      <title>Alerte météo : fortes pluies et orages sur plusieurs wilayas de l'Est</title>
+      <link>https://example.dz/meteo/alerte-pluies-est</link>
+      <description>Un bulletin météorologique spécial annonce des pluies intenses, un risque d'inondations et des vents violents.</description>
+      <pubDate>Sun, 08 Nov 2026 06:00:00 +0000</pubDate>
+      <category>Météo</category>
+    </item>
+    <item>
+      <title>Saisie de 20 kg de cannabis : deux trafiquants arrêtés par la gendarmerie</title>
+      <link>https://example.dz/securite/saisie-cannabis</link>
+      <description>Les services de sécurité ont démantelé un réseau de trafic de drogue. Le procureur a ouvert une enquête.</description>
+      <pubDate>Sun, 08 Nov 2026 08:45:00 +0000</pubDate>
+      <category>Sécurité</category>
+    </item>
+    <item>
+      <title>Rentrée universitaire : les étudiants découvrent les nouvelles résidences</title>
+      <link>https://example.dz/societe/rentree-universitaire</link>
+      <description>Le ministère de l'Enseignement supérieur annonce l'ouverture de milliers de places pour les étudiants.</description>
+      <pubDate>Sun, 08 Nov 2026 10:10:00 +0000</pubDate>
+      <category>Société</category>
+    </item>
+    <item>
+      <title>Nouvelle campagne de vaccination contre la grippe dans les hôpitaux</title>
+      <link>https://example.dz/sante/vaccination-grippe</link>
+      <description>Le ministère de la Santé lance la vaccination des patients à risque, des médecins et des infirmiers.</description>
+      <pubDate>Sun, 08 Nov 2026 11:00:00 +0000</pubDate>
+      <category>Santé</category>
+    </item>
+    <item>
+      <title>Accident de la route sur l'autoroute Est-Ouest : trois blessés</title>
+      <link>https://example.dz/transport/accident-autoroute</link>
+      <description>La circulation a été perturbée plusieurs heures sur la route après la collision de deux véhicules.</description>
+      <pubDate>Sun, 08 Nov 2026 12:20:00 +0000</pubDate>
+      <category>Transport</category>
+    </item>
+    <item>
+      <title>Une start-up algérienne lance une application d'intelligence artificielle</title>
+      <link>https://example.dz/tech/startup-ia</link>
+      <description>Cette innovation numérique utilise un algorithme de traitement des données en langue arabe.</description>
+      <pubDate>Sun, 08 Nov 2026 13:05:00 +0000</pubDate>
+      <category>Technologie</category>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.dz/invalide/sans-titre</link>
+      <description>Cet élément n'a pas de titre : il doit être rejeté par la validation.</description>
+      <pubDate>Sun, 08 Nov 2026 13:30:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

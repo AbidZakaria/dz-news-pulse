@@ -1,0 +1,13 @@
+topic_id,topic_name_en,topic_name_fr,topic_name_ar,description
+politics,Politics & Government,Politique & Gouvernement,السياسة والحكومة,"Government, parliament, elections, parties"
+economy,Economy & Energy,Économie & Énergie,الاقتصاد والطاقة,"Markets, prices, oil and gas, trade, jobs"
+sports,Sports,Sport,رياضة,"Football and other sports, clubs, competitions"
+security,Security & Justice,Sécurité & Justice,الأمن والعدالة,"Police, army, crime, courts, corruption"
+health,Health,Santé,الصحة,"Hospitals, diseases, vaccination, medicines"
+society,Society & Education,Société & Éducation,المجتمع والتعليم,"Schools, universities, housing, family, religion"
+culture,Culture & Media,Culture & Médias,الثقافة والإعلام,"Cinema, music, books, festivals, press"
+international,International,International,دولي,"Diplomacy, other countries, regional affairs"
+tech,Science & Technology,Science & Technologie,العلوم والتكنولوجيا,"Digital, internet, AI, telecoms, research"
+transport,Transport & Infrastructure,Transport & Infrastructures,النقل والبنية التحتية,"Roads, accidents, rail, air, water, public works"
+weather,Weather & Environment,Météo & Environnement,الطقس والبيئة,"Forecasts, storms, floods, fires, climate"
+other,Other,Autre,أخرى,"Articles that match no topic keyword"

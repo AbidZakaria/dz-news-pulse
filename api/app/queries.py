@@ -1,0 +1,84 @@
+"""SQL for each endpoint. All windows are anchored on the newest article in the warehouse
+(not on today's date), so the API still answers sensibly if the pipeline paused for a few days.
+"""
+
+ANCHOR = "anchor AS (SELECT max(date) AS d FROM marts.dim_date)"
+
+OVERVIEW = """
+SELECT
+    count(*)                              AS total_articles,
+    count(DISTINCT f.source_key)          AS sources,
+    count(DISTINCT f.topic_key) FILTER (WHERE t.topic_id <> 'other') AS topics_detected,
+    min(f.published_at)                   AS first_article_at,
+    max(f.published_at)                   AS latest_article_at
+FROM marts.fact_articles f
+JOIN marts.dim_topic t USING (topic_key)
+"""
+
+TOPICS = f"""
+WITH {ANCHOR},
+totals AS (
+    SELECT t.topic_id,
+           t.topic_name_en AS topic,
+           t.topic_name_fr,
+           t.topic_name_ar,
+           sum(f.article_count)::int AS articles
+    FROM marts.fact_topic_daily f
+    JOIN marts.dim_topic t USING (topic_key)
+    JOIN marts.dim_date  d USING (date_key), anchor
+    WHERE d.date > anchor.d - %(days)s::int
+      AND (%(language)s::text IS NULL OR f.language = %(language)s::text)
+    GROUP BY t.topic_id, t.topic_name_en, t.topic_name_fr, t.topic_name_ar
+)
+SELECT *, round(100.0 * articles / sum(articles) OVER (), 1)::float AS share_pct
+FROM totals
+ORDER BY articles DESC, topic
+"""
+
+KEYWORDS = f"""
+WITH {ANCHOR}
+SELECT k.keyword, k.language, sum(k.articles)::int AS mentions
+FROM marts.fact_keyword_daily k
+JOIN marts.dim_date d USING (date_key), anchor
+WHERE d.date > anchor.d - %(days)s::int
+  AND (%(language)s::text IS NULL OR k.language = %(language)s::text)
+GROUP BY k.keyword, k.language
+HAVING sum(k.articles) >= %(min_mentions)s::int
+ORDER BY mentions DESC, k.keyword
+LIMIT %(limit)s::int
+"""
+
+ARTICLES = f"""
+WITH {ANCHOR}
+SELECT f.article_id, f.title, f.url, f.language, f.published_at,
+       s.source_id, s.source_name,
+       t.topic_id, t.topic_name_en AS topic
+FROM marts.fact_articles f
+JOIN marts.dim_source s USING (source_key)
+JOIN marts.dim_topic  t USING (topic_key)
+JOIN marts.dim_date   d USING (date_key), anchor
+WHERE d.date > anchor.d - %(days)s::int
+  AND (%(topic)s::text    IS NULL OR t.topic_id  = %(topic)s::text)
+  AND (%(source)s::text   IS NULL OR s.source_id = %(source)s::text)
+  AND (%(language)s::text IS NULL OR f.language  = %(language)s::text)
+  AND (%(q)s::text        IS NULL OR f.title ILIKE '%%' || %(q)s::text || '%%')
+ORDER BY f.published_at DESC
+LIMIT %(limit)s::int
+"""
+
+SOURCES = """
+SELECT s.source_id, s.source_name, s.language, s.focus,
+       count(f.article_id)::int AS articles,
+       max(f.published_at)      AS latest_article_at
+FROM marts.dim_source s
+LEFT JOIN marts.fact_articles f USING (source_key)
+GROUP BY s.source_id, s.source_name, s.language, s.focus
+ORDER BY articles DESC, s.source_name
+"""
+
+PIPELINE_RUNS = """
+SELECT source_id, status, fetched_count, rejected_count, inserted_count, finished_at, error
+FROM raw.ingestion_log
+ORDER BY id DESC
+LIMIT %(limit)s::int
+"""

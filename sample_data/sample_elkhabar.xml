@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC test data. Mimics El Khabar's non-standard "HH:MM | DD-MM-YYYY" date format. -->
+<rss version="2.0">
+  <channel>
+    <title>Sample El Khabar feed</title>
+    <item>
+      <title>جريمة قتل تستنفر نقابة الصيادلة</title>
+      <description><![CDATA[<img src='https://example.dz/a.webp' alt='x' width='620'> راح ضحيتها صيدلي بولاية قسنطينة.]]></description>
+      <link>https://example.dz/elkhabar/societe/crime-pharmacien-1</link>
+      <pubDate>20:07 | 08-11-2026</pubDate>
+    </item>
+    <item>
+      <title>الجماهير تحاصر مدرب ورئيس الفريق عقب الهزيمة</title>
+      <description><![CDATA[عقب الهزيمة في المباراة الأخيرة بالبطولة.]]></description>
+      <link>https://example.dz/elkhabar/sport/fans-coach-2</link>
+      <pubDate>18:30 | 08-11-2026</pubDate>
+    </item>
+    <item>
+      <title>شركة جزائرية تطلق منصة رقمية جديدة للتجارة الإلكترونية</title>
+      <description><![CDATA[تطبيق ذكي يعتمد على الذكاء الاصطناعي.]]></description>
+      <link>https://example.dz/elkhabar/tech/platform-3</link>
+      <pubDate>not a date at all</pubDate>
+    </item>
+  </channel>
+</rss>

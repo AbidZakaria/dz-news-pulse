@@ -1,0 +1,27 @@
+name: dz_news_pulse
+version: "1.0.0"
+config-version: 2
+profile: dz_news_pulse
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  dz_news_pulse:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: table
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+seeds:
+  dz_news_pulse:
+    +schema: reference

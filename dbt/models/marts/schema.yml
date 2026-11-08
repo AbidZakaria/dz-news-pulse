@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: dim_source
+    description: One row per news website.
+    columns:
+      - name: source_key
+        data_tests: [unique, not_null]
+      - name: source_id
+        data_tests: [unique, not_null]
+
+  - name: dim_topic
+    description: One row per topic (plus "other").
+    columns:
+      - name: topic_key
+        data_tests: [unique, not_null]
+      - name: topic_id
+        data_tests: [unique, not_null]
+
+  - name: dim_date
+    description: Calendar dimension (Algerian weekend = Friday/Saturday).
+    columns:
+      - name: date_key
+        data_tests: [unique, not_null]
+
+  - name: fact_articles
+    description: "Grain: one row per article."
+    columns:
+      - name: article_id
+        data_tests: [unique, not_null]
+      - name: source_key
+        data_tests:
+          - not_null
+          - relationships: {to: ref('dim_source'), field: source_key}
+      - name: topic_key
+        data_tests:
+          - not_null
+          - relationships: {to: ref('dim_topic'), field: topic_key}
+      - name: date_key
+        data_tests:
+          - not_null
+          - relationships: {to: ref('dim_date'), field: date_key}
+
+  - name: fact_topic_daily
+    description: "Grain: day x topic x language."
+    columns:
+      - name: article_count
+        data_tests: [not_null]
+      - name: topic_key
+        data_tests:
+          - relationships: {to: ref('dim_topic'), field: topic_key}
+      - name: date_key
+        data_tests:
+          - relationships: {to: ref('dim_date'), field: date_key}
+
+  - name: fact_keyword_daily
+    description: "Grain: day x language x keyword."
+    columns:
+      - name: keyword
+        data_tests: [not_null]
+      - name: date_key
+        data_tests:
+          - relationships: {to: ref('dim_date'), field: date_key}

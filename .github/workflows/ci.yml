@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python:
+    name: Lint + unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - run: ruff check .
+      - run: pytest -q
+
+  dbt:
+    name: dbt build against a real PostgreSQL
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: news
+          POSTGRES_PASSWORD: news
+          POSTGRES_DB: news
+        ports: ["5433:5432"]
+        options: >-
+          --health-cmd "pg_isready -U news" --health-interval 5s --health-retries 10
+    env:
+      WAREHOUSE_HOST: localhost
+      WAREHOUSE_PORT: "5433"
+      WAREHOUSE_DB: news
+      WAREHOUSE_USER: news
+      WAREHOUSE_PASSWORD: news
+      PYTHONPATH: pipeline
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r pipeline/requirements.txt dbt-core==1.12.6 dbt-postgres==1.9.0
+      # Offline fixtures: no network, fully deterministic.
+      - run: python -m dznews.cli load-sample
+      - run: dbt seed --profiles-dir .
+        working-directory: dbt
+      - run: dbt run --profiles-dir .
+        working-directory: dbt
+      - run: dbt test --profiles-dir .
+        working-directory: dbt
+
+  compose:
+    name: docker compose config + image builds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose config --quiet
+      - run: docker compose build

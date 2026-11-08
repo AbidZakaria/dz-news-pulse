@@ -1,0 +1,73 @@
+"""API tests run without a database: the SQL layer is replaced by a fake."""
+
+import pytest
+from fastapi.testclient import TestClient
+from psycopg2 import errors
+
+from app import main
+
+client = TestClient(main.app, raise_server_exceptions=False)
+
+
+@pytest.fixture
+def fake_query(monkeypatch):
+    calls = []
+
+    def fake(sql, params=None):
+        calls.append((sql, params))
+        return fake.rows
+
+    fake.rows = []
+    fake.calls = calls
+    monkeypatch.setattr(main, "query", fake)
+    return fake
+
+
+def test_health_does_not_need_the_database():
+    assert client.get("/health").json() == {"status": "ok"}
+
+
+def test_dashboard_is_served():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert "DZ News Pulse" in response.text
+
+
+def test_topics_passes_filters_to_sql(fake_query):
+    fake_query.rows = [{"topic": "Sports", "articles": 3, "share_pct": 100.0}]
+    response = client.get("/topics?days=14&language=ar")
+    assert response.status_code == 200
+    assert response.json() == fake_query.rows
+    assert fake_query.calls[0][1] == {"days": 14, "language": "ar"}
+
+
+def test_overview_returns_first_row(fake_query):
+    fake_query.rows = [{"total_articles": 42}]
+    assert client.get("/overview").json() == {"total_articles": 42}
+
+
+@pytest.mark.parametrize(
+    "url",
+    ["/topics?days=0", "/topics?days=500", "/topics?language=en", "/keywords/trending?limit=0",
+     "/articles?q=a", "/articles?limit=1000"],
+)
+def test_invalid_parameters_are_rejected(fake_query, url):
+    assert client.get(url).status_code == 422
+    assert fake_query.calls == []
+
+
+def test_articles_defaults(fake_query):
+    client.get("/articles")
+    assert fake_query.calls[0][1] == {
+        "days": 7, "topic": None, "source": None, "language": None, "q": None, "limit": 25,
+    }
+
+
+def test_missing_tables_give_a_helpful_503(monkeypatch):
+    def boom(*_args, **_kwargs):
+        raise errors.UndefinedTable("relation marts.fact_articles does not exist")
+
+    monkeypatch.setattr(main, "query", boom)
+    response = client.get("/overview")
+    assert response.status_code == 503
+    assert "dz_news_pulse" in response.json()["detail"]

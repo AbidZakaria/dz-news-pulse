@@ -1,0 +1,12 @@
+dz_news_pulse:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('WAREHOUSE_HOST', 'localhost') }}"
+      port: "{{ env_var('WAREHOUSE_PORT', '5433') | as_number }}"
+      user: "{{ env_var('WAREHOUSE_USER', 'news') }}"
+      password: "{{ env_var('WAREHOUSE_PASSWORD', 'news') }}"
+      dbname: "{{ env_var('WAREHOUSE_DB', 'news') }}"
+      schema: analytics
+      threads: 4
