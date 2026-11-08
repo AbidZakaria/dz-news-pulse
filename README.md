@@ -18,6 +18,10 @@ docker compose up --build
 
 > The first Airflow run starts automatically. After the DAG turns green (about a minute) the dashboard fills up. Until then the API answers `503: run the DAG`.
 
+| The DAG after a run: every task green | The dashboard |
+|---|---|
+| ![Airflow DAG graph](docs/img/airflow-dag.jpg) | ![Dashboard](docs/img/dashboard.jpg) |
+
 ---
 
 ## What it does, in plain words
