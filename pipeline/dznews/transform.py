@@ -25,6 +25,8 @@ COLUMNS = [
     "published_raw",
     "author",
     "category_raw",
+    "content",
+    "categories",
     "language",
     "fetched_at",
     "batch_id",
@@ -43,6 +45,7 @@ _ELKHABAR_DATE_RE = re.compile(r"^\s*(\d{1,2}):(\d{2})\s*\|\s*(\d{1,2})-(\d{1,2}
 _ALGIERS_TZ = timezone(timedelta(hours=1))  # Algeria: UTC+1 all year, no DST
 _TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "fbclid"}
 _MAX_SUMMARY_CHARS = 1000
+_MAX_CONTENT_CHARS = 20000
 
 
 def clean_text(value: str | None, max_len: int | None = None) -> str | None:
@@ -56,6 +59,18 @@ def clean_text(value: str | None, max_len: int | None = None) -> str | None:
     if not text:
         return None
     return text[:max_len].rstrip() if max_len else text
+
+
+def _clean_categories(value) -> list[str] | None:
+    """Tags as a de-duplicated list of clean strings (None when there are none)."""
+    if not isinstance(value, list):
+        return None
+    seen: dict[str, None] = {}
+    for tag in value:
+        cleaned = clean_text(tag, 80)
+        if cleaned:
+            seen.setdefault(cleaned)
+    return list(seen) or None
 
 
 def canonical_url(url: str) -> str:
@@ -107,6 +122,12 @@ def build_articles_frame(
     df = pd.DataFrame(records)
     df["title"] = df["title"].map(clean_text)
     df["summary"] = df["summary"].map(lambda v: clean_text(v, _MAX_SUMMARY_CHARS))
+    if "content" not in df:
+        df["content"] = None
+    if "categories" not in df:
+        df["categories"] = None
+    df["content"] = df["content"].map(lambda v: clean_text(v, _MAX_CONTENT_CHARS))
+    df["categories"] = df["categories"].map(_clean_categories)
     df["url"] = df["link"].map(lambda v: canonical_url(v) if isinstance(v, str) and v else None)
 
     # Validation: an article without a title or a link is useless -> reject.

@@ -1,0 +1,1945 @@
+{
+ "description": "Hand-labelled evaluation set built from REAL articles collected by the pipeline (2026-11-04 .. 2026-11-09). An 'event' lists articles that report the same real-world event; every article not listed (and not ambiguous) is its own event. Labels were assigned by reading the headlines, independently of what the clustering produced. They are NOT yet verified by a second human reviewer.",
+ "labelled_by": "assistant (headline reading); pending human review",
+ "articles": [
+  {
+   "article_id": "e429905cc9f9a704",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T15:52:15+00:00",
+   "title": "SEAAL – Alger : Coupure d’eau dans 6 communes jusqu’au mercredi 11 novembre",
+   "url": "https://www.algerie360.com/seaal-coupure-eau-alger-communes",
+   "summary": "Les robinets vont tourner à vide sur les hauteurs d’Alger. La SEAAL a prévenu ses abonnés : une opération d’entretien périodique démarre ce lundi sur […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "a06010abede1cce1",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T15:47:34+00:00",
+   "title": "Scandale des visas espagnols à Alger : l’enquête pointe un patrimoine immobilier insoupçonné",
+   "url": "https://www.algerie360.com/scandale-visas-espagnols-alger-patrimoine-immobilier",
+   "summary": "Six biens immobiliers acquis à Alger en l’espace de cinq ans : c’est le chiffre avancé par les enquêteurs de la police espagnole dans le […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "b5c83bc8bb379f5c",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T15:43:27+00:00",
+   "title": "La fille de Che Guevara à Alger : un hommage aux amis de la Révolution algérienne",
+   "url": "https://www.algerie360.com/aleida-guevara-alger-moudjahidine-tachrift",
+   "summary": "Aleida Guevara, fille du révolutionnaire cubain Ernesto « Che » Guevara, a été accueillie au siège du ministère des Moudjahidine et des Ayants droit par […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "2cdbdfeb257cf098",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T15:32:46+00:00",
+   "title": "Plus de 2 milliards de centimes saisis : un réseau de cryptomonnaies démantelé à Batna",
+   "url": "https://www.algerie360.com/reseau-cryptomonnaies-demantele-batna",
+   "summary": "Quatre hommes âgés de 24 à 38 ans ont été présentés au parquet de Batna après le démantèlement d’un groupe soupçonné de faire commerce de […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "75e4668f2a54355c",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T13:46:48+00:00",
+   "title": "Électricité : 386 mégawatts supplémentaires injectés dans le réseau national",
+   "url": "https://www.algerie360.com/electricite-386-megawatts-hassi-rmel-laghouat",
+   "summary": "Le Sud algérien gagne 386 mégawatts supplémentaires. Ce mardi, le ministre de l’Énergie et des Énergies renouvelables, Mourad Adjal, se déplace dans la wilaya de […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "d0939d1aa61a00a3",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T13:29:44+00:00",
+   "title": "Air Algérie lance une nouvelle promotion : Istanbul, Marseille, Genève… 11 destinations à prix réduits",
+   "url": "https://www.algerie360.com/air-algerie-promotion-11-destinations-prix-reduits",
+   "summary": "La compagnie nationale Air Algérie lance une toute nouvelle vague de promotions exceptionnelles destinées aux voyageurs planifiant leurs déplacements pour les prochains mois. Cette initiative […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "ef8f8947efa740f7",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T11:45:31+00:00",
+   "title": "Algérie – Togo : 2e forfait chez les Verts, Hemdani appelle un joueur local à la rescousse",
+   "url": "https://www.algerie360.com/algerie-togo-ramdane-forfait-yesli-hemdani",
+   "summary": "Le gardien de but du MC Alger, Abdellatif Ramdane, ne prendra pas part à la double confrontation contre le Togo. Son père est décédé hier […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "a714bf078d577379",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T11:28:50+00:00",
+   "title": "Mal de gorge, fatigue… et si ce n’était pas une grippe ? L’OMS alerte sur un nouveau variant du Covid",
+   "url": "https://www.algerie360.com/oms-variant-covid-pj21-grippe",
+   "summary": "L’Organisation mondiale de la santé (OMS) alerte sur la similitude des tableaux symptomatiques associés au nouveau variant du Covid-19, PJ.2.1, et à ceux de la […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "ecd5219332f13671",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T10:51:43+00:00",
+   "title": "Des Américains de Kansas City en Algérie dès ce lundi : plusieurs villes au programme de leur séjour",
+   "url": "https://www.algerie360.com/americains-kansas-city-visite-algerie-villes",
+   "summary": "Dès ce lundi 9 novembre, l’Algérie ouvre ses portes à une délégation de citoyens venus de la ville américaine de Lawrence (Kansas). Un voyage placé […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "07006bddc2276aee",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T10:51:10+00:00",
+   "title": "Coopération militaire algéro-italienne : Le patrouilleur italien ITS Bettica P-492 accoste à Djen Djen",
+   "url": "https://www.algerie360.com/its-bettica-djen-djen-cooperation-militaire-algerie-italie",
+   "summary": "Un bâtiment de guerre italien est amarré depuis hier aux quais du port de Djen Djen, dans la wilaya de Jijel. Le patrouilleur de haute […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "d9be29e004a956d3",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T10:05:54+00:00",
+   "title": "Plus de 274 millions de dollars pour AQS en 2026 : le fer algérien gagne du terrain à l’international",
+   "url": "https://www.algerie360.com/aqs-exportations-siderurgie-jijel-2026",
+   "summary": "L’industrie sidérurgique algérienne poursuit son développement à l’export. Depuis la zone industrielle de Bellara, dans la wilaya de Jijel, la société Algerian Qatari Steel (AQS) […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "261b9145f0147be3",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-09T09:02:59+00:00",
+   "title": "Affaire Houris : Aïcha Dahdouh sort du silence et fait des révélations sur Kamel Daoud",
+   "url": "https://www.algerie360.com/aicha-dahdouh-revelations-affaire-houris",
+   "summary": "Alors que la polémique autour du roman Houris (Prix Goncourt 2024) ne désemplit pas, Aïcha Dahdouh, l’épouse de l’écrivain Kamel Daoud, vient d’effectuer une nouvelle […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "7e687e44d68b19b0",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T23:22:15+00:00",
+   "title": "Pluies, orages et vents violents attendus dans plusieurs wilayas : les alerte en cours ce 9 novembre",
+   "url": "https://www.algerie360.com/pluies-orages-et-vents-violents-attendus-dans-plusieurs-wilayas-les-alerte-en-cours-ce-9-novembre",
+   "summary": "Les conditions météorologiques resteront instables dans plusieurs régions du pays. Pour ce lundi 9 novembre 2026, les services de l’Office national de la météorologie (ONM) […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "9b6aafffbc210fb3",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T20:24:49+00:00",
+   "title": "Musulmans de France : les 7 principes du recteur de la Grande Mosquée de Paris, expliqués",
+   "url": "https://www.algerie360.com/musulmans-france-7-principes-grande-mosquee-paris-laicite",
+   "summary": "Liberté de conscience, citoyenneté, égalité entre les femmes et les hommes : le recteur de la Grande Mosquée de Paris, Chems-Eddine Hafiz, a publié sept […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "67b9a871628a5bf8",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T20:02:32+00:00",
+   "title": "Start-up : l’Algérie négocie avec la Banque mondiale un fonds d’investissement dédié",
+   "url": "https://www.algerie360.com/financement-startup-algerie-banque-mondiale-fonds",
+   "summary": "L’Algérie mène des discussions « très avancées » avec la Banque mondiale pour créer un fonds d’investissement dédié à ses start-up. Le ministre de l’Économie […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "c77f846955d413eb",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T19:31:38+00:00",
+   "title": "Conseil des ministres : Tebboune ordonne une refonte globale du secteur agricole",
+   "url": "https://www.algerie360.com/tebboune-conseil-ministres-reforme-agriculture",
+   "summary": "Le président Tebboune a présidé ce dimanche un Conseil des ministres consacré à l’état et aux perspectives de l’agriculture, du développement rural et de la […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "a0f81938a52e2af1",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T19:24:11+00:00",
+   "title": "Comprendre le diabète avec le Pr Adlen Zaamouche : définition, symptômes et risques",
+   "url": "https://www.algerie360.com/diabete-type-2-algerie-pr-adlen-zaamouche",
+   "summary": "Et si vous étiez diabétique sans le savoir depuis plusieurs années ? C’est le cas de nombreux Algériens, selon le Pr Adlen Zaamouche : le […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "d98258f90e629651",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T18:35:41+00:00",
+   "title": "Huile subventionnée en Algérie : une entreprise de chips impliquée dans une affaire de spéculation",
+   "url": "https://www.algerie360.com/huile-subventionnee-speculation-chips-tipaza",
+   "summary": "Quatre hommes dorment en prison depuis dimanche, un cinquième court toujours. Le parquet du pôle judiciaire spécialisé près du tribunal de Sidi M’hamed a rendu […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "b32b497f371550d6",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T18:30:23+00:00",
+   "title": "Recrutement dans la santé en Algérie : 28 329 postes ouverts en 2027",
+   "url": "https://www.algerie360.com/recrutement-sante-2027-postes-budgetaires-algerie",
+   "summary": "Le secteur de la santé va ouvrir 28 329 nouveaux postes budgétaires en 2027, soit 3 842 de plus qu’en 2026. Les paramédicaux en recevront […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "2d7752a250e10c47",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T18:07:22+00:00",
+   "title": "SILA 2026 : 6,2 millions de visiteurs, mais les Algériens lisent-ils vraiment ?",
+   "url": "https://www.algerie360.com/sila-2026-visiteurs-lecture-algerie-chiffres",
+   "summary": "Le Salon international du livre d’Alger a accueilli plus de 6,2 millions de visiteurs en 2026, un chiffre que peu de salons au monde atteignent. […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "d1210679aff73bc5",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T17:40:04+00:00",
+   "title": "Un pharmacien odieusement assassiné à Constantine : le SNAPO réclame des mesures urgentes",
+   "url": "https://www.algerie360.com/pharmacien-assassine-constantine-snapo",
+   "summary": "Un pharmacien exerçant au centre de Constantine a été tué à l’intérieur de son officine, un drame qui bouleverse la corporation et au-delà. Identifiée par […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "fd1b3583e4144d36",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T17:31:00+00:00",
+   "title": "Gasoil : pourquoi l’Algérie en a importé 1,08 million de tonnes malgré ses raffineries",
+   "url": "https://www.algerie360.com/importation-gasoil-algerie-2025-sonatrach",
+   "summary": "L’Algérie a importé 1,08 million de tonnes de gasoil en 2025, alors qu’elle n’en achetait presque plus à l’étranger un an plus tôt. Le rapport […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "69505625da64eaf1",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T17:23:14+00:00",
+   "title": "Déploiement de l’ANP au Niger : Alger démonte la sortie du porte-parole européen",
+   "url": "https://www.algerie360.com/anp-niger-algerie-dement-union-europeenne",
+   "summary": "Aucune note verbale, aucune requête écrite, aucun échange diplomatique. C’est en ces termes que l’Agence presse service (APS) a balayé, ce week-end, les propos attribués […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "311f5b46bc06eb82",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T17:04:04+00:00",
+   "title": "Sans-papiers devenu héros puis régularisé : l’Algérien Massi coiffe gratuitement les plus démunis",
+   "url": "https://www.algerie360.com/massi-choisy-le-roi-coiffeur-solidaire-titre-sejour",
+   "summary": "En juin 2025, il avait sauvé une fillette suspendue au balcon d’un immeuble de Choisy-le-Roi. Régularisé depuis, l’Algérien Massi, 30 ans, met ses ciseaux au […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "b81cd9f1a69e3683",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T16:35:04+00:00",
+   "title": "Mobilis lance MU Champions : jusqu’à 1 million de dinars et 6 smartphones à gagner chaque semaine",
+   "url": "https://www.algerie360.com/mobilis-mu-champions-challenge-revolution",
+   "summary": "Mobilis lance « MU Champions », un challenge national autour de son offre Revolution. Chaque jeudi, douze abonnés remporteront jusqu’à un million de dinars ou […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "5ea73a74cc2440f8",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T16:23:16+00:00",
+   "title": "Obésité en Algérie : 37,4 % des étudiants en surpoids et 13,4 % des enfants obèses",
+   "url": "https://www.algerie360.com/obesite-algerie-etudiants-enfants-chiffres-congres-saomm",
+   "summary": "Plus d’un étudiant sur trois est en surpoids ou obèse en Algérie, et 13,4 % des enfants de 5 à 11 ans souffrent déjà d’obésité. […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "fcada9d3e8b23d1e",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T15:56:01+00:00",
+   "title": "Supercoupe CAF 2026 : l’USM Alger terrasse Mamelodi Sundowns et s’offre le trophée",
+   "url": "https://www.algerie360.com/usma-mamelodi-sundowns-supercoupe-caf",
+   "summary": "Il fallait oser. Déplacée en Afrique du Sud pour y défier l’un des mastodontes du continent, l’USM Alger n’a pas tremblé : elle dominé Mamelodi […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "ee95bc3ff4c40400",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T15:37:54+00:00",
+   "title": "Visa de travail en 2026 : Allemagne, Canada, Japon… ces pays recherchent des talents étrangers",
+   "url": "https://www.algerie360.com/visa-travail-pays-recrutent-etrangers-2026",
+   "summary": "Face à la recherche permanente de nouvelles perspectives professionnelles et à l’évolution du marché mondial du travail, de nombreux jeunes et professionnels algériens se tournent […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "950540ca52e27cfa",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T14:05:46+00:00",
+   "title": "« Drogue du pauvre » : trois frères algériens au cœur d’un trafic juteux en France",
+   "url": "https://www.algerie360.com/trafic-medicaments-france-freres-algeriens",
+   "summary": "Trois frères d’origine algérienne viennent d’être mis en examen pour avoir orchestré un trafic particulièrement lucratif de médicaments à usage stupéfiant en Île-de-France. Surnommée la […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "d6303bd54f1d3ce5",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T13:35:22+00:00",
+   "title": "Infrastructures : les chantiers routiers s’intensifient dans 12 wilayas",
+   "url": "https://www.algerie360.com/travaux-routiers-12-wilayas-rn6-rn111",
+   "summary": "Les travaux de modernisation et d’entretien du réseau routier se poursuivent à travers plusieurs wilayas du pays, en parallèle du suivi des projets inscrits au […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "e548b0e2571235c1",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T12:38:57+00:00",
+   "title": "Universités ouvertes jusqu’à 22 heures : Baddari explique les raisons de cette décision",
+   "url": "https://www.algerie360.com/baddari-universites-ouvertes-22h",
+   "summary": "L’allongement de la journée universitaire n’est pas une mesure improvisée. C’est en substance le message délivré par Kamel Baddari, ministre de l’Enseignement supérieur et de […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "99059bedf6da3131",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T11:34:10+00:00",
+   "title": "45 125 euros, 5 milliards de centimes, de l’or… une nouvelle affaire de blanchiment mise au jour",
+   "url": "https://www.algerie360.com/blanchiment-argent-5e-region-militaire-algerie",
+   "summary": "Les réseaux spécialisés dans le blanchiment d’argent continuent de faire l’objet d’opérations ciblées en Algérie. Dernière affaire en date, le démantèlement d’une organisation criminelle par […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "e4c54b9c8f39bb19",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T11:11:06+00:00",
+   "title": "Double meurtre à Souk Ahras : la peine de mort prononcée contre un sexagénaire",
+   "url": "https://www.algerie360.com/peine-mort-double-meurtre-souk-ahras",
+   "summary": "La cour criminelle de première instance près la cour de justice de Souk Ahras a prononcé la peine capitale à l’encontre d’un homme de 61 […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "780988fa49b03773",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T10:55:23+00:00",
+   "title": "Hyundai en Algérie : usine CKD attendue d’ici 2027, où en est le projet ?",
+   "url": "https://www.algerie360.com/hyundai-algerie-usine-ckd-kourtel",
+   "summary": "Le ministère de l’Industrie se penche sur les derniers développements du projet Hyundai en Algérie, parallèlement aux efforts visant à élargir la sous-traitance locale, à […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "acaddb4a9ca33ea6",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T10:29:28+00:00",
+   "title": "L’Algérie vise une nouvelle consécration à l’UNESCO : 5 monuments en route vers le patrimoine mondial",
+   "url": "https://www.algerie360.com/unesco-cinq-monuments-antiques-algeriens-patrimoine-mondial",
+   "summary": "Le dossier algérien consacré aux sépultures monumentales des souverains de l’Antiquité vient de franchir une étape déterminante. Le Centre du patrimoine mondial de l’UNESCO a […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "c7c74cd9cdb2025b",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T10:17:58+00:00",
+   "title": "L’UE réclame des éclaircissements sur l’ANP au Niger, des voix s’élèvent en Algérie",
+   "url": "https://www.algerie360.com/anp-niger-ue-eclaircissements-algerie",
+   "summary": "La coopération militaire entre l’Algérie et le Niger suscite désormais des interrogations à Bruxelles. Selon Anouar El Anouni, porte-parole de l’UE pour les affaires étrangères […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "5fda51f1f17c81c7",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T09:19:33+00:00",
+   "title": "Travailler en Europe : l’Estonie assouplit ses règles et cible 12 secteurs en pénurie",
+   "url": "https://www.algerie360.com/travail-estonie-titres-sejour-etrangers-2027",
+   "summary": "Pour attirer les talents là où les besoins sont les plus urgents, l’Estonie s’apprête à faire évoluer ses règles de recrutement international. Le gouvernement vient […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "b584e87f8519049d",
+   "source_id": "algerie360",
+   "language": "fr",
+   "published_at": "2026-11-08T00:29:41+00:00",
+   "title": "CyberKnife M6 : traiter les tumeurs sans bistouri ni anesthésie",
+   "url": "https://www.algerie360.com/cyberknife-m6-tumeurs-sans-bistouri",
+   "summary": "Le mot « couteau » figure dans son nom, pourtant le CyberKnife ne coupe rien. Le patient s’allonge sur une table, un bras robotisé tourne […]",
+   "content_head": ""
+  },
+  {
+   "article_id": "749a716e91f0e7af",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-09T15:40:41+00:00",
+   "title": "Taux de change : le dollar dépasse les 136 dinars en banque",
+   "url": "https://algerie-eco.com/2026/11/09/taux-de-change-le-dollar-depasse-les-136-dinars-en-banque",
+   "summary": "Le dollar progresse face au dinar algérien sur le marché officiel des changes. Ce lundi 9 novembre 2026, la devise américaine a franchi un nouveau seuil, dépassant pour la première fois les 136 dinars. Sur le marché parallèle, en revanche, les cours restent relativement stables, après les hausses en",
+   "content_head": "Le dollar progresse face au dinar algérien sur le marché officiel des changes. Ce lundi 9 novembre 2026, la devise américaine a franchi un nouveau seuil, dépassant pour la première fois les 136 dinars. Sur le marché parallèle, en revanche, les cours restent relativement stables, après les hausses enregistrées ces derniers jours. Selon les cotations publiées par la Banque d’Algérie, un dollar s’échange à 136,13 dinars ce lundi. Ce niveau constitue un nouveau record pour la monnaie américaine. Sa "
+  },
+  {
+   "article_id": "d79aa2a2f618beb1",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-09T14:31:19+00:00",
+   "title": "Trafic de visas au consulat d’Espagne à Alger : l’épouse de l’ex-chancelier soupçonnée d’avoir acquis six biens immobiliers pour 784 000 euros",
+   "url": "https://algerie-eco.com/2026/11/09/trafic-de-visas-au-consulat-despagne-a-alger-lepouse-de-lex-chancelier-soupconnee-davoir-acquis-six-biens-immobiliers-pour-784-000-euros",
+   "summary": "L’enquête menée par la justice espagnole sur un réseau présumé de trafic de visas au sein du consulat général d’Espagne à Alger connaît de nouveaux développements. Selon un rapport de l’Unité de délinquance économique et fiscale (UDEF) de la police espagnole, l’épouse de Vicente Moreno, ancien chanc",
+   "content_head": "L’enquête menée par la justice espagnole sur un réseau présumé de trafic de visas au sein du consulat général d’Espagne à Alger connaît de nouveaux développements. Selon un rapport de l’Unité de délinquance économique et fiscale (UDEF) de la police espagnole, l’épouse de Vicente Moreno, ancien chancelier et numéro deux de la représentation consulaire, aurait acquis au moins six biens immobiliers à Alger entre 2016 et 2021, pour un montant total de 120 millions de dinars, soit environ 784 000 eur"
+  },
+  {
+   "article_id": "1de0bc8065faa933",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-09T13:31:24+00:00",
+   "title": "GNL : les exportations algériennes en hausse de 51 % en octobre, la France premier client",
+   "url": "https://algerie-eco.com/2026/11/09/gnl-les-exportations-algeriennes-en-hausse-de-51-en-octobre-la-france-premier-client",
+   "summary": "Les exportations algériennes de gaz naturel liquéfié (GNL) ont enregistré une hausse de plus de 51 % en octobre 2026, atteignant 1,03 million de tonnes, contre 680.000 tonnes en septembre. Il s’agit de leur niveau le plus élevé depuis un an, selon les données publiées dimanche 8 novembre par la plat",
+   "content_head": "Les exportations algériennes de gaz naturel liquéfié (GNL) ont enregistré une hausse de plus de 51 % en octobre 2026, atteignant 1,03 million de tonnes, contre 680.000 tonnes en septembre. Il s’agit de leur niveau le plus élevé depuis un an, selon les données publiées dimanche 8 novembre par la plateforme spécialisée Attaqa . Ce volume reste toutefois inférieur à celui enregistré en octobre 2025, lorsque les exportations algériennes avaient atteint 1,09 million de tonnes. Depuis le début de l’an"
+  },
+  {
+   "article_id": "aa32d2e08944d0f9",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-09T12:34:30+00:00",
+   "title": "Viande rouge : L’Espagne, premier fournisseur de l’Algérie avec 332 millions d’euros en 2025",
+   "url": "https://algerie-eco.com/2026/11/09/viande-rouge-lespagne-premier-fournisseur-de-lalgerie-avec-332-millions-deuros-en-2025",
+   "summary": "L’Espagne est le premier fournisseur de viande rouge de l’Algérie. Ses exportations vers le marché algérien ont atteint 332 millions d’euros en 2025, soit plus de la moitié des importations algériennes de viandes bovines et ovines réfrigérées. Dans la filière ovine, sa part de marché avoisine 98 %. ",
+   "content_head": "L’Espagne est le premier fournisseur de viande rouge de l’Algérie. Ses exportations vers le marché algérien ont atteint 332 millions d’euros en 2025, soit plus de la moitié des importations algériennes de viandes bovines et ovines réfrigérées. Dans la filière ovine, sa part de marché avoisine 98 %. Au premier semestre 2026, l’Espagne s’est également classée au premier rang des fournisseurs de viande bovine, avec 60 % de la valeur des importations. Entre janvier et mai 2026, l’Algérie a représent"
+  },
+  {
+   "article_id": "8c8120a95e505ee1",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-09T11:50:28+00:00",
+   "title": "Contrôle des produits importés : le réseau de laboratoires passera à 58 en 2027",
+   "url": "https://algerie-eco.com/2026/11/09/controle-des-produits-importes-le-reseau-de-laboratoires-passera-a-58-en-2027",
+   "summary": "Dix-sept (17) nouveaux laboratoires chargés du contrôle sanitaire et de la qualité des produits importés seront mis en place dans les ports et aéroports du pays. Ces structures seront réparties entre dix ports et sept aéroports, ainsi que certains postes frontaliers terrestres. L’annonce a été faite",
+   "content_head": "Dix-sept (17) nouveaux laboratoires chargés du contrôle sanitaire et de la qualité des produits importés seront mis en place dans les ports et aéroports du pays. Ces structures seront réparties entre dix ports et sept aéroports, ainsi que certains postes frontaliers terrestres. L’annonce a été faite ce lundi par Yasmina Kemali, directrice du développement et du suivi des laboratoires au ministère du Commerce intérieur et de la Régulation du marché national, lors de son intervention dans l’émissi"
+  },
+  {
+   "article_id": "a0b75265bc19ebb6",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-08T20:23:08+00:00",
+   "title": "Agriculture : le président Tebboune annonce un nouveau plan d’organisation et la création de nouvelles structures",
+   "url": "https://algerie-eco.com/2026/11/08/agriculture-le-president-tebboune-annonce-un-nouveau-plan-dorganisation-et-la-creation-de-nouvelles-structures",
+   "summary": "Le président de la République, Abdelmadjid Tebboune, a présidé, ce dimanche, une réunion du Conseil des ministres consacrée à l’examen de la situation et des perspectives du secteur de l’agriculture, du développement rural et de la pêche. Ce dossier avait été inscrit à l’ordre du jour du Conseil des",
+   "content_head": "Le président de la République, Abdelmadjid Tebboune, a présidé, ce dimanche, une réunion du Conseil des ministres consacrée à l’examen de la situation et des perspectives du secteur de l’agriculture, du développement rural et de la pêche. Ce dossier avait été inscrit à l’ordre du jour du Conseil des ministres du 4 octobre dernier. À l’issue de l’exposé présenté par le ministre de l’Agriculture, Sid Ali Khaldi, le président Tebboune a ordonné « l’élaboration d’un nouveau plan d’organisation de l’"
+  },
+  {
+   "article_id": "eae68a98342119c7",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-08T18:59:04+00:00",
+   "title": "AQS : 545.000 tonnes de produits sidérurgiques exportées pour 274 millions de dollars",
+   "url": "https://algerie-eco.com/2026/11/08/aqs-545-000-tonnes-de-produits-siderurgiques-exportees-pour-274-millions-de-dollars",
+   "summary": "Les exportations de la société Algerian Qatari Steel (AQS), située dans la zone industrielle de Bellara, dans la commune d’El Milia (wilaya de Jijel), ont atteint 545.000 tonnes de produits sidérurgiques depuis le début de l’année 2026, indique un communiqué publié ce dimanche 8 novembre par cette s",
+   "content_head": "Les exportations de la société Algerian Qatari Steel (AQS), située dans la zone industrielle de Bellara, dans la commune d’El Milia (wilaya de Jijel), ont atteint 545.000 tonnes de produits sidérurgiques depuis le début de l’année 2026, indique un communiqué publié ce dimanche 8 novembre par cette société. Le communiqué précise que « les exportations de la société AQS ont atteint, entre le début de l’année 2026 et le mois de novembre courant, 545.000 tonnes représentant une valeur de plus de 274"
+  },
+  {
+   "article_id": "25f1e4c10d618522",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-08T17:39:35+00:00",
+   "title": "Brahim Merad reçoit le Chargé d’affaires à l’ambassade des Etats-Unis à Alger",
+   "url": "https://algerie-eco.com/2026/11/08/brahim-merad-recoit-le-charge-daffaires-a-lambassade-des-etats-unis-a-alger",
+   "summary": "Le ministre d’Etat, ministre de l’Intérieur et des Collectivités locales, M. Brahim Merad, a reçu, dimanche au Palais du Gouvernement, le Chargé d’affaires à l’ambassade des Etats-Unis d’Amérique à Alger, M. Mark Schapiro, à la demande de ce dernier, indique un communiqué du ministère. La rencontre ",
+   "content_head": "Le ministre d’Etat, ministre de l’Intérieur et des Collectivités locales, M. Brahim Merad, a reçu, dimanche au Palais du Gouvernement, le Chargé d’affaires à l’ambassade des Etats-Unis d’Amérique à Alger, M. Mark Schapiro, à la demande de ce dernier, indique un communiqué du ministère. La rencontre a été « l’occasion d’échanger les vues sur les questions d’intérêt commun, notamment le renforcement de la coopération bilatérale dans le domaine sécuritaire et dans la lutte contre le trafic illicite"
+  },
+  {
+   "article_id": "cf7919c83b22451c",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-08T17:26:42+00:00",
+   "title": "Financement des startups : l’Algérie en discussions avec la Banque mondiale",
+   "url": "https://algerie-eco.com/2026/11/08/financement-des-startups-lalgerie-en-discussions-avec-la-banque-mondiale",
+   "summary": "L’Algérie mène des discussions avancées avec la Banque mondiale (BM) en vue de mettre en place un dispositif de financement destiné aux startups locales. L’objectif est de mobiliser plus de 10 millions de dollars au profit de certaines jeunes entreprises algériennes, à l’occasion de la cinquième édi",
+   "content_head": "L’Algérie mène des discussions avancées avec la Banque mondiale (BM) en vue de mettre en place un dispositif de financement destiné aux startups locales. L’objectif est de mobiliser plus de 10 millions de dollars au profit de certaines jeunes entreprises algériennes, à l’occasion de la cinquième édition de la Conférence africaine des startups, prévue du 5 au 7 décembre prochain à Alger. C’est ce qu’a indiqué le ministre de l’Économie de la connaissance, des Startups et des Micro-entreprises, Nou"
+  },
+  {
+   "article_id": "d164a02dfdb38e62",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-08T12:34:32+00:00",
+   "title": "Algérie : Cinq mausolées royaux antiques franchissent une étape vers leur inscription au patrimoine mondial de l’Unesco",
+   "url": "https://algerie-eco.com/2026/11/08/algerie-cinq-mausolees-royaux-antiques-franchissent-une-etape-vers-leur-inscription-au-patrimoine-mondial-de-lunesco",
+   "summary": "Le dossier de candidature des mausolées royaux de l’Algérie antique (du IVe siècle avant J.-C. au VIe siècle après J.-C.), en vue de leur inscription sur la Liste du patrimoine mondial de l’UNESCO, a franchi une étape importante dans le processus d’évaluation, indique un communiqué du ministère de l",
+   "content_head": "Le dossier de candidature des mausolées royaux de l’Algérie antique (du IVe siècle avant J.-C. au VIe siècle après J.-C.), en vue de leur inscription sur la Liste du patrimoine mondial de l’UNESCO, a franchi une étape importante dans le processus d’évaluation, indique un communiqué du ministère de la Culture et des Arts. « Le Centre du patrimoine mondial de l’UNESCO a confirmé que le dossier algérien répond à l’ensemble des exigences techniques fixées par les Orientations opérationnelles de la C"
+  },
+  {
+   "article_id": "84dc4e197be1b0cf",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-08T11:36:50+00:00",
+   "title": "Algérie : une formation en anglais pour plus de 2 100 guides touristiques",
+   "url": "https://algerie-eco.com/2026/11/08/algerie-une-formation-en-anglais-pour-plus-de-2-100-guides-touristiques",
+   "summary": "Le ministère du Tourisme et de l’Artisanat lance, à partir de ce dimanche 8 novembre, une formation nationale en anglais spécialisé destinée aux guides touristiques. Organisée en coordination avec le ministère de la Formation et de l’Enseignement professionnels, cette initiative concernera plus de 2",
+   "content_head": ""
+  },
+  {
+   "article_id": "6008fbdcecf71b57",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-07T19:12:16+00:00",
+   "title": "Prix des carburants : ce qu’a dit le ministre des Finances sur l’article 218 du PLF 2027",
+   "url": "https://algerie-eco.com/2026/11/07/prix-des-carburants-ce-qua-dit-le-ministre-des-finances-sur-larticle-218-du-plf-2027",
+   "summary": "Le ministre des Finances, Mohammed Lamine Lebbou, en apporté des éclaircissements sur l‘article 218 du projet de loi de finances (PLF) 2027 relatif à la révision des prix des carburants, qui a suscité des interrogations parmi les députés lors de son examen à l’Assemblée populaire nationale (APN). In",
+   "content_head": ""
+  },
+  {
+   "article_id": "76803f5e9781e295",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-07T18:51:27+00:00",
+   "title": "Dessalement : Le PDG Sonatrach inspecte l’état d’avancement du projet de la station de Mostaganem",
+   "url": "https://algerie-eco.com/2026/11/07/dessalement-le-pdg-sonatrach-inspecte-letat-davancement-du-projet-de-la-station-de-mostaganem",
+   "summary": "Le PDG du groupe Sonatrach, Nour Eddine Daoudi, accompagné de plusieurs hauts responsables du groupe, a effectué, samedi, une visite d’inspection du projet de réalisation de la station de dessalement de l’eau de mer de Sidi Laadjel, située dans la commune de Khadra, à l’est de Mostaganem, afin de s’",
+   "content_head": ""
+  },
+  {
+   "article_id": "6488a2d989f3ae16",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-07T15:21:01+00:00",
+   "title": "Industrie automobile : Kourtel reçoit une délégation de Hyundai",
+   "url": "https://algerie-eco.com/2026/11/07/industrie-automobile-kourtel-recoit-une-delegation-de-hyundai",
+   "summary": "Le ministre de l’Industrie, Farid Kourtel, a reçu ce samedi 7 novembre, au siège de son département, une délégation de Hyundai Motor Manufacturing Algeria, dans le cadre du suivi du projet d’investissement du constructeur sud-coréen en Algérie, a indiqué le ministère dans un communiqué. Cette réunio",
+   "content_head": ""
+  },
+  {
+   "article_id": "657804140dcf285c",
+   "source_id": "algerie_eco",
+   "language": "fr",
+   "published_at": "2026-11-07T13:15:30+00:00",
+   "title": "L’Allemagne importe une nouvelle cargaison de GNL algérien",
+   "url": "https://algerie-eco.com/2026/11/07/lallemagne-importe-une-nouvelle-cargaison-de-gnl-algerien",
+   "summary": "L’Algérie a exporté une nouvelle cargaison de gaz naturel liquéfié (GNL) vers l’Allemagne en octobre dernier, dans un contexte de préparation du marché européen à la saison hivernale. L’Allemagne a importé 74 000 tonnes de GNL algérien durant le mois d’octobre 2026, selon les données rapportées vend",
+   "content_head": ""
+  },
+  {
+   "article_id": "6aa6bb8807fc4845",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-09T15:05:57+00:00",
+   "title": "EN : Quatre nouveaux Fennecs débarquent à Alger ! (Vidéo)",
+   "url": "https://www.dzfoot.com/equipes-nationales/en-quatre-nouveaux-fennecs-debarquent-a-alger-video-302100.html",
+   "summary": "Après les deux premières arrivées enregistrées dimanche soir, d'autres internationaux algériens ont rejoint Alger ce lundi. Le groupe de Brahim Hemdani continue ainsi de se compléter à l'approche de la double confrontation face au Togo.",
+   "content_head": ""
+  },
+  {
+   "article_id": "11d4dc0e3d6e2423",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-09T11:35:39+00:00",
+   "title": "Algérie : Un gardien déclare forfait face au Togo !",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-un-gardien-declare-forfait-face-au-togo-302096.html",
+   "summary": "Alors qu'on s'attends à un forfait d'un joueur de champ, un des gardiens de la sélection a été remplacé avant le début du regroupement des Verts à Sidi Moussa.",
+   "content_head": ""
+  },
+  {
+   "article_id": "324924ab8d8cd5a9",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-09T10:51:46+00:00",
+   "title": "Belgique : Kadri offre les trois points à La Gantoise ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/belgique-kadri-offre-les-trois-points-a-la-gantoise-video-302091.html",
+   "summary": "Abdelkahar Kadri a encore fait la différence en Belgique. Buteur face au KV Courtrai, le milieu algérien a offert les trois points à La Gantoise, confirmant ainsi son importance dans le collectif des Buffalos.",
+   "content_head": ""
+  },
+  {
+   "article_id": "9483596ccd84f6aa",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-09T09:15:04+00:00",
+   "title": "France : Yacine Titraoui brille face à l’OM ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/france-yacine-titraoui-brille-face-a-lom-video-302083.html",
+   "summary": "De retour dans le onze de départ du RC Lens, Yacine Titraoui a livré une excellente prestation face à l'Olympique de Marseille. Une sortie rassurante pour l'international algérien avant de retrouver les Fennecs.",
+   "content_head": ""
+  },
+  {
+   "article_id": "8e6e6773a7d6dbb3",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-09T08:59:51+00:00",
+   "title": "Ligue 1 (J9) : Le CRB reprend sa place de leader grâce à son buteur providentiel ! (vidéo)",
+   "url": "https://www.dzfoot.com/football-en-algerie/ligue-1-j9-le-crb-reprend-sa-place-de-leader-grace-a-son-buteur-providentiel-video-302081.html",
+   "summary": "Le CR Belouizdad garde la tête du championnat après une nouvelle victoire à domicile face à l'ES Ben Aknoun.",
+   "content_head": ""
+  },
+  {
+   "article_id": "8984ecf28e148cc0",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-09T08:16:26+00:00",
+   "title": "Algérie U16 : Les Verts sont à Sousse pour le tournoi UNAF !",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-u16-les-verts-sont-a-sousse-pour-le-tournoi-unaf-302076.html",
+   "summary": "La sélection U16 (U17 B) est arrivée dimanche 8 novembre 206 en Tunisie, où elle prendra part au tournoi de l’Union Nord-Africaine de Football (UNAF), prévu du 10 au 16 novembre, et qualificatif à la prochaine Coupe d’Afrique des Nations U17 – 2027.",
+   "content_head": ""
+  },
+  {
+   "article_id": "d41bc5551cbd1dc8",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-09T08:01:10+00:00",
+   "title": "Algérie : Les premiers Fennecs débarquent à Alger ! (Vidéo)",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-les-premiers-fennecs-debarquent-a-alger-video-302070.html",
+   "summary": "Les premiers internationaux algériens sont arrivés à Alger pour prendre part au rassemblement de novembre. Deux joueurs ont déjà rejoint le pays, dont l'un dans des circonstances particulières en raison de son état physique.",
+   "content_head": ""
+  },
+  {
+   "article_id": "1d503a8d2d9f6059",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T20:12:18+00:00",
+   "title": "Ligue 1 : Gouiri marque d’entrée face à Lens ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/ligue-1-gouiri-marque-dentree-face-a-lens-video-302067.html",
+   "summary": "Déjà buteur en Ligue Europa quelques jours plus tôt, Amine Gouiri a remis ça en championnat face au RC Lens. L'international algérien confirme sa belle forme avant de retrouver les Fennecs en novembre.",
+   "content_head": ""
+  },
+  {
+   "article_id": "c8e64b004f8d6b4b",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T17:58:00+00:00",
+   "title": "France : Amoura délivre une nouvelle offrande ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/france-amoura-delivre-une-nouvelle-offrande-video-302062.html",
+   "summary": "À l'aube de retrouver les Fennecs, Mohamed Amoura confirme sa montée en puissance sous les couleurs niçoises. L'attaquant algérien enchaîne les prestations convaincantes et continue de peser sur le jeu offensif des Aiglons.",
+   "content_head": ""
+  },
+  {
+   "article_id": "f5f6858cdd29630f",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T17:31:37+00:00",
+   "title": "Ligue 1 (J9) : La JS El Biar s’offre le scalp du Mouloudia d’Alger ! (vidéo)",
+   "url": "https://www.dzfoot.com/football-en-algerie/ligue-1-j9-la-js-el-biar-soffre-le-scalp-du-mouloudia-dalger-video-302059.html",
+   "summary": "Le Mouloudia d'Alger a fait preuve d'une grande impuissance offensive face à la JS El Biar à l'occasion de la 9e journée de championnat.",
+   "content_head": ""
+  },
+  {
+   "article_id": "a08ba81a937c2099",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T16:33:27+00:00",
+   "title": "Allemagne : Maza encore décisif pour une victoire à l’extérieur ! (vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/allemagne-maza-encore-decisif-pour-une-victoire-a-lexterieur-video-302056.html",
+   "summary": "Le meneur de jeu Algérien continue de régaler ses coéquipiers du Bayer Leverkusen en contribuant à une nouvelle victoire de son équipe.",
+   "content_head": ""
+  },
+  {
+   "article_id": "9acfc866fce92ac6",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T15:54:40+00:00",
+   "title": "Supercoupe d’Afrique : L’USMA décroche une nouvelle étoile ! (vidéo)",
+   "url": "https://www.dzfoot.com/football-en-algerie/supercoupe-dafrique-lusma-decroche-une-nouvelle-etoile-video-302052.html",
+   "summary": "L'USM Alger a décroché sa deuxième Supercoupe d'Afrique en venant à bout des Mamelodi Sundowns sur leurs terres !",
+   "content_head": ""
+  },
+  {
+   "article_id": "1fa61ae28c7810d9",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T15:09:17+00:00",
+   "title": "Bayer Leverkusen : Maza commence à payer les efforts accumulés",
+   "url": "https://www.dzfoot.com/verts-deurope/bayer-leverkusen-maza-commence-a-payer-les-efforts-accumules-302049.html",
+   "summary": "Très utilisé depuis le début de la saison, Ibrahim Maza enchaîne les rencontres avec le Bayer Leverkusen. La succession des matchs commence toutefois à laisser des traces, comme l'a reconnu son entraineur après la défaite face à l'Olympique de Marseille…",
+   "content_head": ""
+  },
+  {
+   "article_id": "d18304de8715afc0",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T13:30:52+00:00",
+   "title": "Pays-Bas : Hadj Moussa inscrit un nouveau bijou ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/pays-bas-hadj-moussa-inscrit-un-nouveau-bijou-video-302046.html",
+   "summary": "À quelques jours de retrouver les Fennecs pour le rassemblement de novembre, Anis Hadj Moussa affiche une forme étincelante. L'ailier algérien a encore fait parler sa patte gauche lors de sa dernière sortie avec Feyenoord.",
+   "content_head": ""
+  },
+  {
+   "article_id": "89698c3a66698c70",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T10:44:59+00:00",
+   "title": "Qatar : Brahimi régale, Belmadi a le dernier mot ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/qatar-brahimi-regale-belmadi-a-le-dernier-mot-video-302042.html",
+   "summary": "Yacine Brahimi et Djamel Belmadi se sont retrouvés face à face au Qatar, dans un duel particulièrement animé. L'ancien sélectionneur des Verts et son ancien protégé ont chacun marqué cette rencontre à leur manière.",
+   "content_head": ""
+  },
+  {
+   "article_id": "1e288e39105d3103",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T10:22:06+00:00",
+   "title": "Italie : Léris buteur et passeur avec Pise ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/italie-leris-buteur-et-passeur-avec-pise-video-302037.html",
+   "summary": "Mehdi Léris s'est particulièrement illustré sous les couleurs de Pise. Dans une rencontre riche en rebondissements face au Südtirol, l'international algérien a livré une prestation remarquée, sans toutefois permettre aux siens de s'imposer.",
+   "content_head": ""
+  },
+  {
+   "article_id": "7112454703529303",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-08T07:36:43+00:00",
+   "title": "Supercoupe d’Afrique : L’USMA veut étoffer encore son palmarès !",
+   "url": "https://www.dzfoot.com/football-en-algerie/supercoupe-dafrique-lusma-veux-etoffer-encore-son-palmares-302027.html",
+   "summary": "L'USM Alger tentera de décrocher la deuxième Supercoupe d'Afrique de son histoire, à l'occasion de la confrontation face aux Sud-Africains de Mamelodi Sundowns, aujourd'hui au stade Loftus Versfeld de Pretoria à 14h (DZ/FR).",
+   "content_head": ""
+  },
+  {
+   "article_id": "d7bac58ac29ab0e7",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T21:13:29+00:00",
+   "title": "Pays-Bas : Soualhia s’offre un superbe but de la tête ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/pays-bas-soualhia-soffre-un-superbe-but-de-la-tete-video-302024.html",
+   "summary": "Abdelnour Soualhia confirme ses belles dispositions offensives malgré son poste de défenseur. L'Algérien s'est une nouvelle fois illustré sous les couleurs de Telstar, poursuivant ainsi son excellent début de saison aux Pays-Bas.",
+   "content_head": ""
+  },
+  {
+   "article_id": "c89d6d0de7719a61",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T21:00:07+00:00",
+   "title": "Norvège : Amin Chiakha ne s’arrête plus ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/norvege-amin-chiakha-ne-sarrete-plus-video-302019.html",
+   "summary": "En pleine réussite sous les couleurs de Rosenborg, Amin Chiakha continue d'affoler les compteurs en Norvège. L'attaquant algérien confirme son excellente dynamique à quelques jours de retrouver les Fennecs pour le rassemblement de novembre.",
+   "content_head": ""
+  },
+  {
+   "article_id": "892d0245ce64bd77",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T18:49:25+00:00",
+   "title": "Ligue 1 (J9) : la JSK stoppée dans son élan par Akbou !",
+   "url": "https://www.dzfoot.com/football-en-algerie/ligue-1-j9-la-jsk-stoppee-dans-son-elan-par-akbou-302012.html",
+   "summary": "La JS Kabylie a vu sa belle dynamique freinée lors du derby face à l’Olympique Akbou. Une rencontre particulièrement disputée, marquée par plusieurs incidents et des regrets pour les hommes de Karim Belhocine.",
+   "content_head": ""
+  },
+  {
+   "article_id": "d05189acf47b537c",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T17:52:21+00:00",
+   "title": "Allemagne : Chaïbi débloque son compteur d’assists ! (vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/allemagne-chaibi-debloque-son-compteur-dassists-video-302009.html",
+   "summary": "L’international algérien Farès Chaïbi a apporté sa touche décisive dans une rencontre riche en rebondissements ce samedi en championnat, confirmant sa montée en puissance à l’approche du prochain rassemblement des Verts.",
+   "content_head": ""
+  },
+  {
+   "article_id": "54be69a6d75c1382",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T16:52:47+00:00",
+   "title": "Qatar : Mahrez et Bounedjah ont encore régalé sur les pelouses qatariennes (vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/qatar-mahrez-et-bounedjah-ont-encore-regale-sur-les-pelouses-qatariennes-video-302005.html",
+   "summary": "Riyad Mahrez a encore régalé sur les pelouses qatariennes. À l'occasion de la réception d'Al Sailiya, ce samedi, dans le cadre de la neuvième journée de la Qatar Stars League, l'international algérien a participé activement au large succès d'Al Shamal (5-0).",
+   "content_head": ""
+  },
+  {
+   "article_id": "e8f55a7765837e7b",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T15:25:18+00:00",
+   "title": "Angleterre : Mauvaise nouvelle pour Belloumi !",
+   "url": "https://www.dzfoot.com/verts-deurope/angleterre-mauvaise-nouvelle-pour-belloumi-302002.html",
+   "summary": "Coup dur pour Mohamed Bachir Belloumi. Alors que Hull City s'apprêtait à affronter Arsenal dans une affiche particulièrement attendue, l'international algérien a finalement manqué le rendez-vous. Une absence qui n'est pas passée inaperçue et qui a rapidement suscité des interrogations quant à son ét",
+   "content_head": ""
+  },
+  {
+   "article_id": "59500d28f2189c32",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T15:08:34+00:00",
+   "title": "Verts : Belghali peut souffler après les dernières nouvelles de Turin",
+   "url": "https://www.dzfoot.com/equipes-nationales/verts-belghali-peut-souffler-apres-les-dernieres-nouvelles-de-turin-301999.html",
+   "summary": "L’inquiétude autour de Rafik Belghali semble s’atténuer. Touché lors de la rencontre contre Frosinone, le défenseur algérien a retrouvé le groupe du Torino et pourrait même prendre part à la prochaine sortie de son équipe.",
+   "content_head": ""
+  },
+  {
+   "article_id": "9bbca8e27a678ed9",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T12:13:13+00:00",
+   "title": "Boxe : Imane Khelif officialise son grand retour !",
+   "url": "https://www.dzfoot.com/divers/boxe-imane-khelif-officialise-son-grand-retour-301993.html",
+   "summary": "près une longue période loin des rings, la championne olympique algériennes Imene Khelif s'apprête à faire son grand retour. Un rendez-vous très attendu se profile désormais à Paris, où elle compte renouer avec la compétition.",
+   "content_head": ""
+  },
+  {
+   "article_id": "20980d6f8706e434",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T12:05:32+00:00",
+   "title": "EN U15 : Ziani satisfait du parcours, mais lucide sur les lacunes des Verts (vidéo)",
+   "url": "https://www.dzfoot.com/equipes-nationales/jeunes/en-u15-ziani-satisfait-du-parcours-mais-lucide-sur-les-lacunes-des-verts-video-301996.html",
+   "summary": "Après un parcours remarqué à Bakou, où les jeunes Verts ont notamment dominé l'Argentine avant de se mesurer aux meilleures sélections de leur catégorie, Karim Ziani est revenu sur cette expérience. Le sélectionneur algérien a dressé un bilan positif, tout en identifiant plusieurs aspects à améliore",
+   "content_head": ""
+  },
+  {
+   "article_id": "240ee30a38986985",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T11:42:18+00:00",
+   "title": "Verts : Maza, Leverkusen et après ? Les prédictions fortes de Patrick Guillou (vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/verts-maza-leverkusen-et-apres-les-predictions-fortes-de-patrick-guillou-video-301990.html",
+   "summary": "Alors qu’il poursuit sa progression sous les couleurs du Bayer Leverkusen, Ibrahim Maza suscite déjà de grandes attentes. Observateur du football allemand, l'ancien footballeur français Patrick Guillou, voit même en lui un futur joueur d’une très grande écurie européenne.",
+   "content_head": ""
+  },
+  {
+   "article_id": "ea8ccad075ab2f22",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T11:19:09+00:00",
+   "title": "Algérie : Un record d’internationaux dans le championnat !",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-un-record-dinternationaux-dans-le-championnat-301987.html",
+   "summary": "Le championnat d'Algérie est t-il monté en gamme ? En tout, il y'a en ce mois de novembre un record de joueurs qui y évoluent et qui ont été convoqués par leur sélections.",
+   "content_head": ""
+  },
+  {
+   "article_id": "4372c89a54997cf5",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T09:42:47+00:00",
+   "title": "Ligue 2 (9e journée) : La JS Azazga crée la surprise !",
+   "url": "https://www.dzfoot.com/football-en-algerie/ligue-2-9e-journee-la-js-azazga-cree-la-surprise-301984.html",
+   "summary": "La neuvième journée du championnat de Ligue 2 amateur de football, disputée vendredi et devant se poursuivre samedi, a été marquée par le retour de la JS Azazga à hauteur du MSP Batna dans le groupe Centre-Est, ainsi que par la prise de pouvoir provisoire du GC Mascara dans le groupe Centre-Ouest, a",
+   "content_head": ""
+  },
+  {
+   "article_id": "95c05420f22ecb4c",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-07T08:16:27+00:00",
+   "title": "Algrérie U16 : Yacine Abed doublement sélectionné !",
+   "url": "https://www.dzfoot.com/equipes-nationales/algrerie-u16-yacine-abed-doublement-selectionne-301979.html",
+   "summary": "Le sélectionneur de l'équipe nationale de football des moins de 16 ans (U17 - B), Karim Ziani, a fait appel à 25 joueurs en prévision du tournoi de l'Union nord-africaine (UNAF), qualificatif à la phase finale de la CAN-2027, prévu du 9 au 17 novembre à Sousse et Monastir (Tunisie).",
+   "content_head": ""
+  },
+  {
+   "article_id": "a84a6e1aa85715d7",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-06T21:13:21+00:00",
+   "title": "Algérie U23 : Saïfi dévoile sa liste avec une surprise !",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-u23-saifi-devoile-sa-liste-avec-une-surprise-301974.html",
+   "summary": "À l’approche des éliminatoires de la CAN U23 2027, Rafik Saïfi a arrêté ses choix pour la double confrontation face à l’Eswatini. Une liste marquée par quelques nouveautés et un retour remarqué.",
+   "content_head": ""
+  },
+  {
+   "article_id": "834e582bc2616146",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-06T16:41:28+00:00",
+   "title": "Ligue 1 : le MCO saisit la Commission fédérale d’arbitrage, du nouveau au CSC !",
+   "url": "https://www.dzfoot.com/football-en-algerie/ligue-1-le-mco-saisit-la-commission-federale-darbitrage-du-nouveau-au-csc-301971.html",
+   "summary": "La Ligue 1 Mobilis connaît de nouveaux rebondissements. Alors que le MC Oran a décidé de réagir après son dernier match, le CS Constantine entame une nouvelle étape avec des changements importants.",
+   "content_head": ""
+  },
+  {
+   "article_id": "d37753740bc01caa",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-06T15:10:01+00:00",
+   "title": "France : Bruno Genesio sous le charme de Gouiri !",
+   "url": "https://www.dzfoot.com/verts-deurope/france-bruno-genesio-sous-le-charme-de-gouiri-301964.html",
+   "summary": "De plus en plus décisif sous les couleurs marseillaises, Amine Gouiri confirme son retour au premier plan. Sa dernière prestation européenne n'a pas laissé son entraîneur indifférent, bien au contraire.",
+   "content_head": ""
+  },
+  {
+   "article_id": "c44b6ec4b2347676",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-06T14:57:16+00:00",
+   "title": "Coupe du Monde U17 : La liste de l'Algérie dévoilée ! (Officiel)",
+   "url": "https://www.dzfoot.com/equipes-nationales/coupe-du-monde-u17-la-liste-de-lalgerie-devoilee-officiel-301965.html",
+   "summary": "La liste de l’Algérie pour la Coupe du monde U17 au Qatar est officiellement tombée. Le sélectionneur Amine Ghimouz a retenu 21 joueurs, avec quelques absences notables parmi les éléments attendus.",
+   "content_head": ""
+  },
+  {
+   "article_id": "59987c749b16c2f4",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-06T06:30:15+00:00",
+   "title": "Mercato : Hadj Moussa attire toujours plus de prétendants, la liste s'allonge !",
+   "url": "https://www.dzfoot.com/verts-deurope/mercato-hadj-moussa-attire-toujours-plus-de-pretendants-la-liste-sallonge-301925.html",
+   "summary": "Le nom d’Anis Hadj Moussa continue de circuler sur le marché européen. Alors que plusieurs formations suivent attentivement son évolution à Feyenoord, une nouvelle piste vient s’ajouter à un dossier qui s’annonce particulièrement animé.",
+   "content_head": ""
+  },
+  {
+   "article_id": "e2bdafb5719592ce",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-06T06:15:38+00:00",
+   "title": "Mercato : Abada sort du silence et répond aux rumeurs sur son avenir",
+   "url": "https://www.dzfoot.com/verts-deurope/mercato-abada-sort-du-silence-et-repond-aux-rumeurs-sur-son-avenir-301944.html",
+   "summary": "Annoncé dans le viseur d’Al Ahly et d’Al Shamal à l’approche du mercato hivernal, le défenseur algérien Achref Abada a tenu à clarifier sa situation. À quelques jours d’un rendez-vous important, il affiche également ses ambitions avec les Rouge et Noir.",
+   "content_head": ""
+  },
+  {
+   "article_id": "727ec1347217fa62",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-06T06:00:40+00:00",
+   "title": "Ligue 1 : le Classico JSK – MCA reprogrammé !",
+   "url": "https://www.dzfoot.com/football-en-algerie/ligue-1-le-classico-jsk-mca-reprogramme-301928.html",
+   "summary": "Le choc tant attendu entre la JS Kabylie et le MC Alger se précise enfin. Une confrontation qui pourrait redistribuer les cartes au sommet du classement de Ligue 1 Mobilis.",
+   "content_head": ""
+  },
+  {
+   "article_id": "e3bd223bab1b507b",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T22:07:21+00:00",
+   "title": "Europa League : Gouiri sort le grand jeu et fait chavirer le Leverkusen de Maza (vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/europa-league-gouiri-sort-le-grand-jeu-et-fait-chavirer-le-leverkusen-de-maza-video-301950.html",
+   "summary": "Amine Gouiri a encore frappé sur la scène européenne. Opposé au Bayer Leverkusen, l’attaquant marseillais a inscrit un but magnifique pour offrir un succès précieux aux siens, dans une rencontre également marquée par la présence de Himad Abdelli et Ibrahim Maza.",
+   "content_head": ""
+  },
+  {
+   "article_id": "c563c933d7f3274c",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T22:02:58+00:00",
+   "title": "Europa League : Zorgane décisif, l'Union renverse le Celta Vigo (vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/europa-league-zorgane-decisif-lunion-renverse-le-celta-vigo-video-301947.html",
+   "summary": "L’Union Saint-Gilloise a signé une nouvelle performance convaincante sur la scène européenne. En déplacement en Espagne, les Belges ont réussi à faire tomber le Celta Vigo (1-2), au terme d’une rencontre durant laquelle Adem Zorgane s’est illustré en participant directement au retour de son équipe.",
+   "content_head": ""
+  },
+  {
+   "article_id": "d6911c07c88b3674",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T20:24:17+00:00",
+   "title": "Espagne : L'incroyable accueil réservé à Rebbach après sa convocation ! (Vidéo)",
+   "url": "https://www.dzfoot.com/verts-deurope/espagne-lincroyable-accueil-reserve-a-rebbach-apres-sa-convocation-video-301936.html",
+   "summary": "La première convocation d’Abderrahmane Rebbach chez les Fennecs a provoqué une scène aussi inattendue qu’émouvante en Espagne. Une séquence devenue virale sur les réseaux sociaux et qui témoigne de l’estime dont jouit l’Algérien.",
+   "content_head": ""
+  },
+  {
+   "article_id": "fb3c79a716f6cf61",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T19:36:06+00:00",
+   "title": "France : Himad Abdelli s’offre une belle distinction !",
+   "url": "https://www.dzfoot.com/verts-deurope/france-himad-abdelli-soffre-une-belle-distinction-301932.html",
+   "summary": "Longtemps critiqué pour ses débuts mitigés à Marseille, Himad Abdelli semble avoir définitivement inversé la tendance. L'international algérien enchaîne les performances convaincantes et vient de recevoir une belle reconnaissance de ses supporters.",
+   "content_head": ""
+  },
+  {
+   "article_id": "5aa1af6c2fcde99c",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T18:34:51+00:00",
+   "title": "Qatar : Djamel Belmadi récompensé !",
+   "url": "https://www.dzfoot.com/verts-deurope/qatar-djamel-belmadi-recompense-301922.html",
+   "summary": "L'entraineur Algérien Djamel Belmadi a reçu une récompense pour son bon début de saison avec Al Duhail.",
+   "content_head": ""
+  },
+  {
+   "article_id": "7dce2c7d88666d85",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T17:46:13+00:00",
+   "title": "Al Shamal : Après Mahrez, une légende des Verts en approche !",
+   "url": "https://www.dzfoot.com/verts-deurope/al-shamal-apres-mahrez-une-legende-des-verts-en-approche-301918.html",
+   "summary": "Alors que Riyad Mahrez et Baghdad Bounedjah évoluent désormais sous les mêmes couleurs au Qatar, une autre figure emblématique des Verts pourrait prochainement les retrouver, dans des circonstances pour le moins inattendues.",
+   "content_head": ""
+  },
+  {
+   "article_id": "9b4d6ed730c6cbd9",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T15:20:23+00:00",
+   "title": "Algérie : Hemdani évoque les cas Merah, Hammche et Massolin",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-hemdani-evoque-les-cas-merah-hammche-et-massolin-301911.html",
+   "summary": "Le sélectionneur d'Algérie Brahim Hemdani a été interrogé sur trois jeunes joueurs Algériens pour savoir si ils sont sous les radars.",
+   "content_head": ""
+  },
+  {
+   "article_id": "bd92cdf9dfbb6588",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T14:50:39+00:00",
+   "title": "Algérie : « Il était normal que je prenne cette décision », Hemdani tranche sur Aït-Nouri",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-il-ny-a-aucune-problematique-hemdani-repond-sur-le-cas-ait-nouri-301907.html",
+   "summary": "Écarté de la sélection algérienne pour le deuxième rassemblement sous Brahim Hemdani, Rayan Aït-Nouri continue de faire parler de lui. Le sélectionneur a été invité à justifier cette absence.",
+   "content_head": ""
+  },
+  {
+   "article_id": "f17578755143f995",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T14:40:45+00:00",
+   "title": "« J'ai fait mes choix » : Hemdani explique l’absence de Zidane !",
+   "url": "https://www.dzfoot.com/equipes-nationales/jai-fait-mes-choix-hemdani-explique-labsence-de-zidane-301897.html",
+   "summary": "Luca Zidane manquait à l’appel, et la question est vite tombée en conférence de presse. Quelques jours avant la double confrontation face au Togo, Brahim Hemdani a pris la parole pour s’expliquer sur ce choix qui fait parler",
+   "content_head": ""
+  },
+  {
+   "article_id": "c58d379ed1c95dd8",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T14:30:44+00:00",
+   "title": "Algérie : Deux nouveaux et cinq retours !",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-deux-nouveaux-et-cinq-retours-301900.html",
+   "summary": "La liste de Brahim Hemdani pour le mois de novembre est tombée et voici les changements !",
+   "content_head": ""
+  },
+  {
+   "article_id": "5df5549bb4ee291c",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T14:08:50+00:00",
+   "title": "Algérie : Voici la liste de 26 de Hemdani face au Togo !",
+   "url": "https://www.dzfoot.com/equipes-nationales/algerie-voici-la-liste-de-26-de-hemdani-face-au-togo-301894.html",
+   "summary": "Voici la liste de 2 joueurs convoqués par Brahim Hemdani pour affronter le Togo lors du mois de novembre.",
+   "content_head": ""
+  },
+  {
+   "article_id": "bbffeee533426b9e",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T11:25:23+00:00",
+   "title": "Poyet : « L’Algérie, une des seules offres concrètes ! »",
+   "url": "https://www.dzfoot.com/equipes-nationales/poyet-lalgerie-une-des-seules-offres-concretes-301875.html",
+   "summary": "Avant la nomination de Brahim Hemdani, la FAF avait exploré plusieurs pistes pour le banc des Verts. Un technicien étranger revient aujourd’hui sur les coulisses de discussions qui l’avaient particulièrement enthousiasmé.",
+   "content_head": ""
+  },
+  {
+   "article_id": "368ef35e58a4230d",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T11:15:36+00:00",
+   "title": "Mercato : Une nouvelle piste anglaise se dessine pour Chiakha",
+   "url": "https://www.dzfoot.com/verts-deurope/mercato-une-nouvelle-piste-anglaise-se-dessine-pour-chiakha-301876.html",
+   "summary": "L’ascension d’Amin Chiakha ne passe plus inaperçue sur le marché européen. Auteur d’une saison remarquée en Norvège, l’attaquant international algérien suscite désormais l’intérêt d’un club anglais, qui suit attentivement son évolution en vue des prochaines échéances du mercato.",
+   "content_head": ""
+  },
+  {
+   "article_id": "d9e8f0bfe94dd9b4",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-05T11:05:41+00:00",
+   "title": "Europe : l'Algérie n°1, une génération qui impressionne !",
+   "url": "https://www.dzfoot.com/verts-deurope/europe-lalgerie-n1-une-generation-qui-impressionne-301881.html",
+   "summary": "Les footballeurs algériens écrivent actuellement l’une des plus belles pages de leur histoire en club. Selon le classement Sofascore des nations, basé sur la note moyenne des joueurs évoluant dans les dix meilleurs championnats européens, l’Algérie occupe la première place avec une moyenne de 7,13.",
+   "content_head": ""
+  },
+  {
+   "article_id": "391eb872a4b03662",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-04T14:15:16+00:00",
+   "title": "Togo : Patrice Neveu sort de ses gonds après une question sur l'Algérie ! (vidéo)",
+   "url": "https://www.dzfoot.com/equipes-nationales/selectionnesa/togo-patrice-neveu-sort-de-ses-gonds-apres-une-question-sur-lalgerie-video-301844.html",
+   "summary": "À quelques jours de retrouver les Verts dans le cadre des éliminatoires de la CAN 2027, le sélectionneur du Togo, Patrice Neveu, a perdu son sang-froid en conférence de presse. Une question d’un journaliste concernant les ambitions de son équipe face à l’Algérie a provoqué une vive altercation verba",
+   "content_head": ""
+  },
+  {
+   "article_id": "a914e238a659d231",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-04T13:38:50+00:00",
+   "title": "Allemagne : à vos votes pour Ibrahim Maza !",
+   "url": "https://www.dzfoot.com/verts-deurope/allemagne-a-vos-votes-pour-ibrahim-maza-301841.html",
+   "summary": "Une nouvelle récompense est à portée d’Ibrahim Maza, et les supporters peuvent peser dans la balance. L’international algérien a l’occasion de prolonger sa belle dynamique : à vous de lui donner un coup de pouce en votant !",
+   "content_head": ""
+  },
+  {
+   "article_id": "cfd4bc580884ba87",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-04T11:30:47+00:00",
+   "title": "Mercato : Maza ouvre une grande porte au PSG !",
+   "url": "https://www.dzfoot.com/verts-deurope/mercato-maza-ouvre-une-grande-porte-au-psg-301837.html",
+   "summary": "Alors que son nom circule avec insistance du côté de Paris depuis plusieurs jours, Ibrahim Maza a livré une déclaration qui ne devrait pas passer inaperçue dans la capitale française.",
+   "content_head": ""
+  },
+  {
+   "article_id": "ca629e1e53e76777",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-04T11:06:44+00:00",
+   "title": "Écosse : Bouanani s'invite parmi les meilleurs !",
+   "url": "https://www.dzfoot.com/verts-deurope/ecosse-bouanani-sinvite-parmi-les-meilleurs-301833.html",
+   "summary": "Les prestations de Badredine Bouanani commencent à trouver un bel écho en Écosse. De plus en plus en vue avec les Rangers, l’international algérien vient de recevoir une distinction qui confirme son retour au premier plan.",
+   "content_head": ""
+  },
+  {
+   "article_id": "d8fe0853806ac00b",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-04T10:17:20+00:00",
+   "title": "CAF Awards 2026 : l'Algérie en lice sur plusieurs fronts !",
+   "url": "https://www.dzfoot.com/equipes-nationales/caf-awards-2026-lalgerie-en-lice-sur-plusieurs-fronts-301827.html",
+   "summary": "Les nouvelles annonces de la CAF donnent au football algérien plusieurs raisons de suivre cette édition avec ambition. Entre espoirs de consécration et absences remarquées, ces premières listes dessinent une course aux récompenses qui mérite le détour.",
+   "content_head": ""
+  },
+  {
+   "article_id": "6e6229a89cf15d14",
+   "source_id": "dzfoot",
+   "language": "fr",
+   "published_at": "2026-11-04T06:30:06+00:00",
+   "title": "Belgique : « Je ne changerai jamais », Zorgane répond à ses détracteurs",
+   "url": "https://www.dzfoot.com/verts-deurope/belgique-je-ne-changerai-jamais-zorgane-repond-a-ses-detracteurs-301821.html",
+   "summary": "Alors que ses statistiques offensives font l’objet de certaines critiques, Adem Zorgane a tenu à rappeler que son influence sur le jeu ne se résume pas aux buts et aux passes décisives. Le milieu algérien assume pleinement son identité de joueur.",
+   "content_head": ""
+  },
+  {
+   "article_id": "5e14229bd88e3411",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T17:04:58+00:00",
+   "title": "بوفدش: عهد الإملاءات والوصاية ولّى والجزائر تقرر مصيرها بإرادتها",
+   "url": "https://www.echoroukonline.com/%d8%a8%d9%88%d9%81%d8%af%d8%b4-%d8%b9%d9%87%d8%af-%d8%a7%d9%84%d8%a5%d9%85%d9%84%d8%a7%d8%a1%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d9%88%d8%b5%d8%a7%d9%8a%d8%a9-%d9%88%d9%84%d9%91%d9%89-%d9%88%d8%a7%d9%84",
+   "summary": "استذكرت رئيسة المجلس الشعبي الوطني، خليدة بوفدش، في كلمة لها في أشغال اجتماع للمكتب يوم الاثنين 9 نوفمبر، كون بعض الأطراف لاتزال تمتهن الازدواجية وتحنّ إلى زمن الوصاية والهيمنة، وباتت عاجزة عن استيعاب حقيقة مفادها أن عهد الإملاءات والتدخل في الشؤون الداخلية قد ولّى. ووفقا لما نقله المجلس الشعبي الوط",
+   "content_head": "استذكرت رئيسة المجلس الشعبي الوطني، خليدة بوفدش، في كلمة لها في أشغال اجتماع للمكتب يوم الاثنين 9 نوفمبر، كون بعض الأطراف لاتزال تمتهن الازدواجية وتحنّ إلى زمن الوصاية والهيمنة، وباتت عاجزة عن استيعاب حقيقة مفادها أن عهد الإملاءات والتدخل في الشؤون الداخلية قد ولّى. ووفقا لما نقله المجلس الشعبي الوطني في بيان، أكدت بوفدش أن الجزائر -ومعها الدول الإفريقية-أصبحت تقرر مصيرها بإرادتها وإرادة مؤسساتها السيّدة، وتمتلك من الإمكانات والقدرات المادية والبشرية الذاتية ما يؤهلها لضمان أمنها وحماية ثرواتها،"
+  },
+  {
+   "article_id": "303f509da0a39296",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T16:44:33+00:00",
+   "title": "حول الازدواجية اللغوية في الجزائر (الجزء الثامن)",
+   "url": "https://www.echoroukonline.com/%d8%ad%d9%88%d9%84-%d8%a7%d9%84%d8%a7%d8%b2%d8%af%d9%88%d8%a7%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d9%84%d8%ba%d9%88%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%a7%d9%84%d8%ac",
+   "summary": "تُعدّ المسألة اللغوية مؤشرا جيدا على التبعية؛ فهي مسألة موضوعية ولكنها ذاتية أيضا. ولعلّ هذا ما يفسّر طابعها العاطفي الحسّاس، وصعوبة قول بعض الحقائق في هذا الشأن. يمكننا أن نخوض مغامرة التحليل النفسي، فمن وجد نفسه متورطا في وضع لغوي متجه نحو الخارج، وهو وضعٌ غير مريح لأنه قابل لأن يُربط في كل لحظة ب",
+   "content_head": "تُعدّ المسألة اللغوية مؤشرا جيدا على التبعية؛ فهي مسألة موضوعية ولكنها ذاتية أيضا. ولعلّ هذا ما يفسّر طابعها العاطفي الحسّاس، وصعوبة قول بعض الحقائق في هذا الشأن. يمكننا أن نخوض مغامرة التحليل النفسي، فمن وجد نفسه متورطا في وضع لغوي متجه نحو الخارج، وهو وضعٌ غير مريح لأنه قابل لأن يُربط في كل لحظة بالفترة الاستعمارية المؤلمة، فإن لديه إذن نزعة دائمة لإنكار هذا الوضع، بل ومحاولة شرعنته. ولعلّ الكاتبين كمال داود وبوعلام صنصال هما من ذهبا أبعد في الإنكار والتبرير؛ فقد تجرّءا، ولكن على طريقة “هيروست"
+  },
+  {
+   "article_id": "146e2b5cdf7bc761",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T16:39:20+00:00",
+   "title": "شعبة الزيتون… ثروة وطنية تستنجد بالجالية العلمية في الخارج",
+   "url": "https://www.echoroukonline.com/%d8%b4%d8%b9%d8%a8%d8%a9-%d8%a7%d9%84%d8%b2%d9%8a%d8%aa%d9%88%d9%86-%d8%ab%d8%b1%d9%88%d8%a9-%d9%88%d8%b7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b3%d8%aa%d9%86%d8%ac%d8%af-%d8%a8%d8%a7%d9%84%d8%ac%d8%a7%d9%84",
+   "summary": "ناشد الخبير المهني أرزقي تودرت المجلس الأعلى للجالية العلمية الوطنية في الخارج، مرافقة مسار التنمية الوطنية وخدمة إحدى الشعب الإستراتيجية في الجزائر وهي شعبة الزيتون. وقال تودرت، في اتصال مع “الشروق”، إن شعبة الزيتون تحتل اليوم مكانة إستراتيجية لا يمكن إنكارها في الاقتصاد الفلاحي الوطني، فهي تأتي مب",
+   "content_head": "ناشد الخبير المهني أرزقي تودرت المجلس الأعلى للجالية العلمية الوطنية في الخارج، مرافقة مسار التنمية الوطنية وخدمة إحدى الشعب الإستراتيجية في الجزائر وهي شعبة الزيتون. وقال تودرت، في اتصال مع “الشروق”، إن شعبة الزيتون تحتل اليوم مكانة إستراتيجية لا يمكن إنكارها في الاقتصاد الفلاحي الوطني، فهي تأتي مباشرة في المرتبة الثانية بعد شعبة الحبوب، وتتربع على مساحة تفوق نصف مليون هكتار منتشرة عبر 43 ولاية، من الساحل إلى الهضاب العليا وصولا إلى ولايات الجنوب الكبير. ويرى المتحدث ذاته، في شعبة الزيتون، “منظ"
+  },
+  {
+   "article_id": "e20cce3e1d827f87",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T16:29:08+00:00",
+   "title": "بعد تراجع الانضباط بالمدارس.. فيدرالية أولياء التلاميذ تطلق حملة وطنية و تحذّر",
+   "url": "https://www.echoroukonline.com/%d8%a8%d8%b9%d8%af-%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%a7%d9%84%d8%a7%d9%86%d8%b6%d8%a8%d8%a7%d8%b7-%d8%a8%d8%a7%d9%84%d9%85%d8%af%d8%a7%d8%b1%d8%b3-%d9%81%d9%8a%d8%af%d8%b1%d8%a7%d9%84%d9%8a%d8%a9",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "2dfb94f861ce2f35",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T16:25:21+00:00",
+   "title": "درجات حرارة قياسية في عز الخريف.. التغير المناخي يرهن الموسم الفلاحي",
+   "url": "https://www.echoroukonline.com/%d8%af%d8%b1%d8%ac%d8%a7%d8%aa-%d8%ad%d8%b1%d8%a7%d8%b1%d8%a9-%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d9%81%d9%8a-%d8%b9%d8%b2-%d8%a7%d9%84%d8%ae%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%aa%d8%ba%d9%8a%d8%b1",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "3ba90dba05dd136e",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T16:16:57+00:00",
+   "title": "حبس مسيّر شركة “شيبس” و4 أشخاص عن المضاربة بالزيت",
+   "url": "https://www.echoroukonline.com/%d8%ad%d8%a8%d8%b3-%d9%85%d8%b3%d9%8a%d9%91%d8%b1-%d8%b4%d8%b1%d9%83%d8%a9-%d8%b4%d9%8a%d8%a8%d8%b3-%d9%884-%d8%a3%d8%b4%d8%ae%d8%a7%d8%b5-%d8%b9%d9%86-%d8%a7%d9%84%d9%85%d8%b6%d8%a7%d8%b1%d8%a8",
+   "summary": "أمر قاضي التحقيق لدى القطب القضائي المتخصص بمحكمة سيدي أمحمد، الأحد 8 نوفمبر الجاري، بإيداع أربعة أشخاص الحبس المؤقت، في قضية تتعلق بالمضاربة غير المشروعة في مادة الزيت الغذائي المدعم الموجه للاستهلاك البشري وتحويلها عن مقصدها الامتيازي، فيما بقي شخص خامس في حالة فرار. وأوضحت نيابة الجمهورية، أنه “ع",
+   "content_head": "أمر قاضي التحقيق لدى القطب القضائي المتخصص بمحكمة سيدي أمحمد، الأحد 8 نوفمبر الجاري، بإيداع أربعة أشخاص الحبس المؤقت، في قضية تتعلق بالمضاربة غير المشروعة في مادة الزيت الغذائي المدعم الموجه للاستهلاك البشري وتحويلها عن مقصدها الامتيازي، فيما بقي شخص خامس في حالة فرار. وأوضحت نيابة الجمهورية، أنه “عملا بأحكام المادة 19 من قانون الإجراءات الجزائية، تعلم نيابة الجمهورية لدى القطب القضائي المتخصص بمحكمة سيدي أمحمد الرأي العام، أنه وعلى إثر التحقيق الابتدائي المنجز من قبل الفرقة الإقليمية للدرك الوط"
+  },
+  {
+   "article_id": "0e4513c94eef154c",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T16:06:05+00:00",
+   "title": "حان الوقت ليشارك اتحاد العاصمة في رابطة الأبطال ويفوز باللقب",
+   "url": "https://www.echoroukonline.com/%d8%ad%d8%a7%d9%86-%d8%a7%d9%84%d9%88%d9%82%d8%aa-%d9%84%d9%8a%d8%b4%d8%a7%d8%b1%d9%83-%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d8%b9%d8%a7%d8%b5%d9%85%d8%a9-%d9%81%d9%8a-%d8%b1%d8%a7%d8%a8%d8%b7",
+   "summary": "بالطريقة والنتيجة والأداء والخبرة والفنيات، تمكن فريق اتحاد العاصمة من أن يثبت نفسه كواحد من القوى الإفريقية الكبرى، على حساب كبير، كان منذ أشهر بطل إفريقيا في رابطة الأبطال. ففي ظرف ثلاث سنوات فقط، جمع اتحاد العاصمة أربعة ألقاب، على حساب كبار القارة من الأهلي المصري في ملعب محايد كان كله بالأحمر، و",
+   "content_head": "بالطريقة والنتيجة والأداء والخبرة والفنيات، تمكن فريق اتحاد العاصمة من أن يثبت نفسه كواحد من القوى الإفريقية الكبرى، على حساب كبير، كان منذ أشهر بطل إفريقيا في رابطة الأبطال. ففي ظرف ثلاث سنوات فقط، جمع اتحاد العاصمة أربعة ألقاب، على حساب كبار القارة من الأهلي المصري في ملعب محايد كان كله بالأحمر، ومن الزمالك في عقر دياره بمصر وانتهاء بكبير القارة سان داونز أيضا في عقر دياره بثلاثية مقابل واحد، دون نسيان كبير تانزانيا يانغ أفريكانز، ولولا حكاية الخارطة الوهمية وفريق بركان المراكشي وألاعيبه لكانت"
+  },
+  {
+   "article_id": "e3e185b10d3c094c",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T16:05:18+00:00",
+   "title": "حركة النهضة ترد: الجزائر غير ملزمة بتبرير قراراتها السيادية للاتحاد الأوروبي",
+   "url": "https://www.echoroukonline.com/%d8%ad%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d9%86%d9%87%d8%b6%d8%a9-%d8%aa%d8%b1%d8%af-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%ba%d9%8a%d8%b1-%d9%85%d9%84%d8%b2%d9%85%d8%a9-%d8%a8%d8%aa%d8%a8%d8%b1",
+   "summary": "وصفت حركة النهضة تصريحات المتحدث باسم المفوضية الأوروبية للشؤون الخارجية والسياسة الأمنية بشأن تواجد مفرزة من الجيش الوطني الشعبي بدولة النيجر الشقيقة، بـ”التدخل السافر”، مستنكرة ما اعتبرته تطورا مريبًا في موقف الاتحاد الأوروبي تجاه الجزائر، ومؤكدة أن قرار إرسال وحدات من الجيش الوطني الشعبي إلى الني",
+   "content_head": "وصفت حركة النهضة تصريحات المتحدث باسم المفوضية الأوروبية للشؤون الخارجية والسياسة الأمنية بشأن تواجد مفرزة من الجيش الوطني الشعبي بدولة النيجر الشقيقة، بـ”التدخل السافر”، مستنكرة ما اعتبرته تطورا مريبًا في موقف الاتحاد الأوروبي تجاه الجزائر، ومؤكدة أن قرار إرسال وحدات من الجيش الوطني الشعبي إلى النيجر يندرج ضمن الخيارات السيادية للدولة الجزائرية ولا يستوجب تقديم مبررات لأي جهة كانت. وفي بيان وقعه الأمين العام محمد ذويبي، أكدت حركة النهضة أن قرار إرسال وحدات من الجيش إلى دولة النيجر الشقيقة اتخذه"
+  },
+  {
+   "article_id": "7228db1b0e389fd8",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T15:40:22+00:00",
+   "title": "شراكة جزائرية-صينية لإنجاز مركز بيانات للذكاء الاصطناعي بسيدي عبد الله",
+   "url": "https://www.echoroukonline.com/%d8%b4%d8%b1%d8%a7%d9%83%d8%a9-%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1%d9%8a%d8%a9-%d8%b5%d9%8a%d9%86%d9%8a%d8%a9-%d9%84%d8%a5%d9%86%d8%ac%d8%a7%d8%b2-%d9%85%d8%b1%d9%83%d8%b2-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7",
+   "summary": "بحث وزير التعليم العالي والبحث العلمي، كمال بداري، يوم الإثنين 9 نوفمبر، بالمدرسة الوطنية العليا للذكاء الاصطناعي بالقطب العلمي والتكنولوجي الشهيد عبد الحفيظ إحدادن سيدي عبد الله، مع وفد صيني، مشروع إنجاز مركز بيانات للذكاء الاصطناعي على مستوى المدرسة الوطنية العليا للذكاء الاصطناعي بسيدي عبد الله. ",
+   "content_head": "بحث وزير التعليم العالي والبحث العلمي، كمال بداري، يوم الإثنين 9 نوفمبر، بالمدرسة الوطنية العليا للذكاء الاصطناعي بالقطب العلمي والتكنولوجي الشهيد عبد الحفيظ إحدادن سيدي عبد الله، مع وفد صيني، مشروع إنجاز مركز بيانات للذكاء الاصطناعي على مستوى المدرسة الوطنية العليا للذكاء الاصطناعي بسيدي عبد الله. شاهد المحتوى كاملا على الشروق أونلاين"
+  },
+  {
+   "article_id": "a85fc4dba5a954b8",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T15:34:30+00:00",
+   "title": "هل تستطيع “البوليساريو” رفع دعوى قضائية ضد إسبانيا؟",
+   "url": "https://www.echoroukonline.com/%d9%87%d9%84-%d8%aa%d8%b3%d8%aa%d8%b7%d9%8a%d8%b9-%d8%a7%d9%84%d8%a8%d9%88%d9%84%d9%8a%d8%b3%d8%a7%d8%b1%d9%8a%d9%88-%d8%b1%d9%81%d8%b9-%d8%af%d8%b9%d9%88%d9%89-%d9%82%d8%b6%d8%a7%d8%a6%d9%8a",
+   "summary": "وضعُ إسبانيا، الدولة المعترف بها في الأمم المتحدة أنها هي القوة الاستعمارية للصحراء الغربية، غريب ولا أحد يفهمه، ولا يوجد له شبيه أو مثل في العالم أو في التاريخ. إلى حد الآن، وهذه معلومة يجهلها الناس، لا تزال لجنة تصفية الاستعمار تسأل، سنويًا، إسبانيا عما قامت به لتصفية الاستعمار في مستعمرتها الصحرا",
+   "content_head": "وضعُ إسبانيا، الدولة المعترف بها في الأمم المتحدة أنها هي القوة الاستعمارية للصحراء الغربية، غريب ولا أحد يفهمه، ولا يوجد له شبيه أو مثل في العالم أو في التاريخ. إلى حد الآن، وهذه معلومة يجهلها الناس، لا تزال لجنة تصفية الاستعمار تسأل، سنويًا، إسبانيا عما قامت به لتصفية الاستعمار في مستعمرتها الصحراء الغربية. حسب قانون لجنة تصفية الاستعمار، إسبانيا ملزمة برفع تقرير سنوي ترد فيه على أسئلة اللجنة. لماذا نقول إن وضع إسبانيا، بالنسبة للصحراء الغربية، هو غريب وشاذ؟ هو وضع شاذ، لأن إسبانيا تنصلت من مس"
+  },
+  {
+   "article_id": "ea258760509b5a58",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-09T15:32:23+00:00",
+   "title": "الكمامة تعود إلى الواجهة… وتحذيرات من تداخل متحورات الأنفلونزا",
+   "url": "https://www.echoroukonline.com/%d8%a7%d9%84%d9%83%d9%85%d8%a7%d9%85%d8%a9-%d8%aa%d8%b9%d9%88%d8%af-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d9%88%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d8%a7%d8%aa-%d9%85%d9%86",
+   "summary": "في ظل استمرار التحورات الفيروسية وتزايد التحديات الصحية المرتبطة بالأمراض التنفسية، تتجدد الدعوات إلى عدم التهاون مع التدابير الوقائية، وإعادة الاعتبار للسلوكيات الصحية التي أثبتت أهميتها في الحد من انتقال العدوى، وفي مقدمتها ارتداء الكمامة، خاصة في الأماكن المغلقة والمرافق التي تعرف احتكاكا يوميا و",
+   "content_head": ""
+  },
+  {
+   "article_id": "82ac5691a4ef3b4c",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T19:44:56+00:00",
+   "title": "صفحة بيتكوفيتش طويت نهائياً… الأخطاء التحكيمية غير مقصودة… و”الفاف” تؤمن بالكفاءة الوطنية",
+   "url": "https://www.echoroukonline.com/%d8%b5%d9%81%d8%ad%d8%a9-%d8%a8%d9%8a%d8%aa%d9%83%d9%88%d9%81%d9%8a%d8%aa%d8%b4-%d8%b7%d9%88%d9%8a%d8%aa-%d9%86%d9%87%d8%a7%d8%a6%d9%8a%d8%a7%d9%8b-%d8%a7%d9%84%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d8%a7",
+   "summary": "أكد الأمين العام للاتحاد الجزائري لكرة القدم، نذير بوزناد، خلال استضافته في برنامج “في التسعين” الذي قدمه الزميل طارق بوفليح بحضور اللاعبَيْن الدوليين السابقَيْن حسين آشيو وحكيم مدان، أن الاتحاد الجزائري يضع نصب عينيه العمل المستقبلي وتطوير اللعبة، متناولاً قضايا حساسة تشمل الجهاز الفني السابق، وأدا",
+   "content_head": ""
+  },
+  {
+   "article_id": "3cef01b89b58d833",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T19:38:33+00:00",
+   "title": "ذكريات حزينة لِمناد ورونالدو.. هل يتّخذ حمداني هذا القرار؟",
+   "url": "https://www.echoroukonline.com/%d8%b0%d9%83%d8%b1%d9%8a%d8%a7%d8%aa-%d8%ad%d8%b2%d9%8a%d9%86%d8%a9-%d9%84%d9%90%d9%85%d9%86%d8%a7%d8%af-%d9%88%d8%b1%d9%88%d9%86%d8%a7%d9%84%d8%af%d9%88-%d9%87%d9%84-%d9%8a%d8%aa%d9%91%d8%ae%d8%b0",
+   "summary": "يواجه الناخب الوطني إبراهيم حمداني أمرا على قدر كبير من الأهمية، عشية مقابلتَي “الخضر” والطوغو. وتُجرى المقابلتان مساء السبت المقبل وعصر الثلاثاء الموالي، ضمن إطار الجولتَين الثالثة والرابعة من تصفيات كأس أمم إفريقيا 2027. أعلنت إدارة نادي مولودية الجزائر مساء الأحد، عن وفاة والد حارس مرمى فريقها ال",
+   "content_head": ""
+  },
+  {
+   "article_id": "5f6a6e3068cf030c",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T19:20:44+00:00",
+   "title": "لا شكاوى حزبية وصور المترشحين بالذكاء الاصطناعي تثير الجدل",
+   "url": "https://www.echoroukonline.com/%d9%84%d8%a7-%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d8%ad%d8%b2%d8%a8%d9%8a%d8%a9-%d9%88%d8%b5%d9%88%d8%b1-%d8%a7%d9%84%d9%85%d8%aa%d8%b1%d8%b4%d8%ad%d9%8a%d9%86-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1",
+   "summary": "تشكيلات تدخل السباق بقوائم وحيدة بلا منافسين في عدد من البلديات لم تسجل التشكيلات السياسية المشاركة في الانتخابات المحلية المقررة يوم 28 نوفمبر الجاري، أي شكاوى بشأن تجاوزات انتخابية منذ انطلاق الحملة الانتخابية الخميس الماضي، في وقت تشهد فيه مواقع التواصل الاجتماعي حركية متزايدة للمترشحين، الذين شر",
+   "content_head": ""
+  },
+  {
+   "article_id": "de330c01691f4a3c",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T19:10:44+00:00",
+   "title": "الحملة",
+   "url": "https://www.echoroukonline.com/%d8%a7%d9%84%d8%ad%d9%85%d9%84%d8%a9",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "39cee6a7671d13f6",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T19:00:19+00:00",
+   "title": "هكذا ستساهم الجماعات المحلية في صناديق الاستثمار والتضامن",
+   "url": "https://www.echoroukonline.com/%d9%87%d9%83%d8%b0%d8%a7-%d8%b3%d8%aa%d8%b3%d8%a7%d9%87%d9%85-%d8%a7%d9%84%d8%ac%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d9%8a%d8%a9-%d9%81%d9%8a-%d8%b5%d9%86%d8%a7%d8%af%d9%8a",
+   "summary": "حددت وزارتا الداخلية والجماعات المحلية والنقل (القرار قبل التعديل الحكومي) والمالية، بموجب ثلاثة قرارات وزارية مشتركة، نسب مساهمة البلديات والولايات في صندوق التضامن والضمان للجماعات المحلية، إلى جانب حصة مساهمة هذا الأخير في صندوق التجهيز والاستثمار الموجه لميزانيات البلديات، وذلك بعنوان السنة الما",
+   "content_head": ""
+  },
+  {
+   "article_id": "821c1da807888a92",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T18:58:32+00:00",
+   "title": "بلوزداد في الصّدارة.. وأوّل هزيمة للمولودية",
+   "url": "https://www.echoroukonline.com/%d8%a8%d9%84%d9%88%d8%b2%d8%af%d8%a7%d8%af-%d9%81%d9%8a-%d8%a7%d9%84%d8%b5%d9%91%d8%af%d8%a7%d8%b1%d8%a9-%d9%88%d8%a3%d9%88%d9%91%d9%84-%d9%87%d8%b2%d9%8a%d9%85%d8%a9-%d9%84%d9%84%d9%85%d9%88%d9%84",
+   "summary": "انفرد شباب بلوزداد بِصدارة الترتيب مساء الأحد، فيما تجرّعت مولودية الجزائر مرارة أوّل خسارة. فاز الشباب بِهدف لِصفر على جاره نجم بن عكنون، في مباراة لِحساب الجولة التاسعة من عمر البطولة الوطنية “موبيليس”. وبات يملك 20 نقطة في الصّدارة، متقدّما عن الوصيف فريق شبيبة القبائل بِفارق 3 نقاط. وألحق الفريق",
+   "content_head": ""
+  },
+  {
+   "article_id": "f4577dc524259a76",
+   "source_id": "echorouk",
+   "language": "en",
+   "published_at": "2026-11-08T18:52:39+00:00",
+   "title": "Surge in Algerian Gas Exports as Production Set to Rise",
+   "url": "https://www.echoroukonline.com/surge-in-algerian-gas-exports-as-production-set-to-rise",
+   "summary": "Algeria’s liquefied natural gas (LNG) exports rebounded sharply in October 2026, rising by more than 51% month-on-month to reach 1.03 million tonnes, their highest level in a year. The recovery comes amid forecasts that the country’s average natural gas production will increase to around 10 billion ",
+   "content_head": ""
+  },
+  {
+   "article_id": "383c2588664e6ca3",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T18:31:44+00:00",
+   "title": "متألقون في أوروبا والخليج أسقطهم حمداني من قائمته",
+   "url": "https://www.echoroukonline.com/%d9%85%d8%aa%d8%a3%d9%84%d9%82%d9%88%d9%86-%d9%81%d9%8a-%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d8%a7-%d9%88%d8%a7%d9%84%d8%ae%d9%84%d9%8a%d8%ac-%d8%a3%d8%b3%d9%82%d8%b7%d9%87%d9%85-%d8%ad%d9%85%d8%af%d8%a7",
+   "summary": "في تربصه الثاني، لا يبدو إبراهيم حمداني، خارج عن مسار سابقيه، جمال بلماضي وبيتكوفيتش، حيث يواصل اجترار لاعبيهم، وحتى عندما طعّم تشكيلته باللاعب عزي، فهو يعلم وعزي يعلم بأن اللاعب لن يكون في التشكيلة الأساسية، وحتى رماش القادم من الدوري الإسباني لا يكاد يمتلك أي حظ للعب كأساسي وربما حتى كاحتياطي. خلا",
+   "content_head": ""
+  },
+  {
+   "article_id": "4241ec8b8e62de2d",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T18:20:36+00:00",
+   "title": "تدارك مسبق لتعثرات تلاميذ الابتدائي",
+   "url": "https://www.echoroukonline.com/%d8%aa%d8%af%d8%a7%d8%b1%d9%83-%d9%85%d8%b3%d8%a8%d9%82-%d9%84%d8%aa%d8%b9%d8%ab%d8%b1%d8%a7%d8%aa-%d8%aa%d9%84%d8%a7%d9%85%d9%8a%d8%b0-%d8%a7%d9%84%d8%a7%d8%a8%d8%aa%d8%af%d8%a7%d8%a6%d9%8a",
+   "summary": "في خطوة استباقية، لترسيخ ثقافة تقييم حقيقية ترتكز على الجوانب الكيفية والنوعية لتعلمات التلاميذ، أصدرت وزارة التربية الوطنية منشورا وزارياً تكميلياً، تسعى من خلاله لوضع الإطار التطبيقي والعملي المنظم للتقييم البيداغوجي في مرحلة التعليم الابتدائي للسنة الدراسية الجارية 2026/2027، إذ استندت في مرجعيته",
+   "content_head": ""
+  },
+  {
+   "article_id": "0625eb75c8496fb4",
+   "source_id": "echorouk",
+   "language": "ar",
+   "published_at": "2026-11-08T18:19:30+00:00",
+   "title": "واخرُجوا من باب واحد!",
+   "url": "https://www.echoroukonline.com/%d9%88%d8%a7%d8%ae%d8%b1%d9%8f%d8%ac%d9%88%d8%a7-%d9%85%d9%86-%d8%a8%d8%a7%d8%a8-%d9%88%d8%a7%d8%ad%d8%af",
+   "summary": "جاء في القرآن الكريم أنّ نبيّ الله- عز وجل- سيِّدَنا يعقوب- عليه السلام- طلب من أبنائه أن يذهبوا من فلسطين إلى مصر ليبحثوا عن أخويهم يوسف- عليه السلام- وبنيامين، وقد فصّل القرآنُ الكريم هذه القصة المملوءة عِبرا لمن كان له قلبٌ أو ألقى السمعَ وهو شهيد… وقد أمر سيدُنا يعقوب– عليه السلام- أبناءه وهم لا",
+   "content_head": ""
+  },
+  {
+   "article_id": "e4f4a459701af900",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-09T15:59:00+00:00",
+   "title": "\"من أمريكا وأوروبا إلى أرض الوطن \".. محمد يعود إلى الجزائر ويطلق مشروعا فلاحيا",
+   "url": "https://www.elbilad.net/videos/من-أمريكا-وأوروبا-إلى-أرض-الوطن-محمد-يعود-إلى-الجزائر-ويطلق-مشروعا-فلاحيا",
+   "summary": "\"من أمريكا وأوروبا إلى أرض الوطن \".. محمد يعود إلى الجزائر ويطلق مشروعا فلاحيا.",
+   "content_head": ""
+  },
+  {
+   "article_id": "d7cd5c3869c41078",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-09T15:56:00+00:00",
+   "title": "\"قصة نجاح زوجين\".. ياسين ولينا.. يبدعان في صناعة مواد التجميل والتنظيف الطبيعية",
+   "url": "https://www.elbilad.net/videos/قصة-نجاح-زوجين-ياسين-ولينا-يبدعان-في-صناعة-مواد-التجميل-والتنظيف-الطبيعية",
+   "summary": "\"قصة نجاح زوجين\".. ياسين ولينا.. يبدعان في صناعة مواد التجميل والتنظيف الطبيعية.",
+   "content_head": ""
+  },
+  {
+   "article_id": "a15d7b23808d9840",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-09T15:55:00+00:00",
+   "title": "تيزي وزو تحيي اليوم الوطني للحرفي وتبرز ثراء الصناعة التقليدية وتنوعها",
+   "url": "https://www.elbilad.net/videos/تيزي-وزو-تحيي-اليوم-الوطني-للحرفي-وتبرز-ثراء-الصناعة-التقليدية-وتنوعها",
+   "summary": "تيزي وزو تحيي اليوم الوطني للحرفي وتبرز ثراء الصناعة التقليدية وتنوعها.",
+   "content_head": ""
+  },
+  {
+   "article_id": "66c7928bc1c9eb6b",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-09T13:34:00+00:00",
+   "title": "بداري يستقبل نائب الأمين العام لرئاسة جمهورية زيمبابوي وسفيرها بالجزائر",
+   "url": "https://www.elbilad.net/national/بداري-يستقبل-نائب-الأمين-العام-لرئاسة-جمهورية-زيمبابوي-وسفيرها-بالجزائر-146519",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "5665c38ca235a422",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-09T12:28:00+00:00",
+   "title": "الفريق أول السعيد شنقريحة: الجزائر ماضية بخطى ثابتة في تعزيز خياراتها الاستراتيجية",
+   "url": "https://www.elbilad.net/national/الفريق-أول-السعيد-شنقريحة-الجزائر-ماضية-بخطى-ثابتة-في-تعزيز-خياراتها-الاستراتيجية-146517",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "86ae50879e283cb9",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-09T11:30:00+00:00",
+   "title": "الفريق أول شنقريحة يباشر زيارة عمل وتفقد إلى الناحية العسكرية الثانية",
+   "url": "https://www.elbilad.net/national/الفريق-أول-شنقريحة-يباشر-زيارة-عمل-وتفقد-إلى-الناحية-العسكرية-الثانية-146518",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "511aca406ee46e7c",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-09T09:09:00+00:00",
+   "title": "تعليم عالي: بداري يعقد اجتماعا تقييميا لتثمين نتائج البحث العلمي والابتكار",
+   "url": "https://www.elbilad.net/national/تعليم-عالي-بداري-يعقد-اجتماعا-تقييميا-لتثمين-نتائج-البحث-العلمي-والابتكار-146514",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "9b418d9d30ad599e",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-09T08:28:00+00:00",
+   "title": "الشمندر والسبانخ.. خضراوات بسيطة تخفي فوائد غذائية مهمة",
+   "url": "https://www.elbilad.net/info-divers/الشمندر-والسبانخ-خضراوات-بسيطة-تخفي-فوائد-غذائية-مهمة-146515",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "76fe032086eaf4d4",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-08T19:13:00+00:00",
+   "title": "تموين الأسواق بكميات معتبرة من #البطاطا المخزنة عبر مختلف الولايات",
+   "url": "https://www.elbilad.net/videos/تموين-الأسواق-بكميات-معتبرة-من-البطاطا-المخزنة-عبر-مختلف-الولايات",
+   "summary": "تموين الأسواق بكميات معتبرة من #البطاطا المخزنة عبر مختلف الولايات.",
+   "content_head": ""
+  },
+  {
+   "article_id": "6de8726b74d70761",
+   "source_id": "elbilad",
+   "language": "ar",
+   "published_at": "2026-11-08T19:10:00+00:00",
+   "title": "ضخ 120 طنًا من #البطاطا بمستغانم وتسويقها بسعر 70 دينارًا",
+   "url": "https://www.elbilad.net/videos/ضخ-120-طنا-من-البطاطا-بمستغانم-وتسويقها-بسعر-70-دينارا",
+   "summary": "ضخ 120 طنًا من #البطاطا بمستغانم وتسويقها بسعر 70 دينارًا.",
+   "content_head": ""
+  },
+  {
+   "article_id": "ada5eda41ef1805d",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-09T16:25:00+00:00",
+   "title": "الجزائر تنضم إلى اتفاقية \"دستور الأدوية الأمريكي\"",
+   "url": "https://www.elkhabar.com/nation/الجزائر-تنضم-إلى-اتفاقية-دستور-الأدوية-الأمريكي-276114",
+   "summary": "حسب ما أفاد بيان لوزارة الصناعة الصيدلانية.",
+   "content_head": ""
+  },
+  {
+   "article_id": "c8f4313a75d07f64",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-09T16:05:00+00:00",
+   "title": "الجزائر تعزي بولندا",
+   "url": "https://www.elkhabar.com/nation/الجزائر-تعزي-بولندا-276113",
+   "summary": "إثر حادث إطلاق النار المأساوي الذي شهدته مدينة كراكوف بجمهورية بولندا مؤخرا.",
+   "content_head": ""
+  },
+  {
+   "article_id": "a3fb3a10bb31f265",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-09T15:41:00+00:00",
+   "title": "الذكاء الاصطناعي.. مشروع واعد بشراكة صينية",
+   "url": "https://www.elkhabar.com/economie/الذكاء-الاصطناعي-مشروع-واعد-بشراكة-صينية-276112",
+   "summary": "خطوة نوعية نحو تعزيز القدرات الوطنية في مجال الحوسبة عالية الأداء.",
+   "content_head": ""
+  },
+  {
+   "article_id": "3df7c375c4445d6f",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-09T15:15:00+00:00",
+   "title": "تطورات بشأن جريمة قتل صيدلي في قسنطينة",
+   "url": "https://www.elkhabar.com/societe/تطورات-بشأن-جريمة-قتل-صيدلي-في-قسنطينة-276111",
+   "summary": "بيان نيابة الجمهورية لدى محكمة قسنطينة.",
+   "content_head": ""
+  },
+  {
+   "article_id": "6ca64db480b8d51d",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-09T14:39:00+00:00",
+   "title": "اجتماع مهم لوزراء العدل العرب بالجزائر",
+   "url": "https://www.elkhabar.com/nation/اجتماع-مهم-لوزراء-العدل-العرب-بالجزائر-276110",
+   "summary": "برئاسة وزير العدل لطفي بوجمعة.",
+   "content_head": ""
+  },
+  {
+   "article_id": "291b1606c61740ef",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-08T20:14:00+00:00",
+   "title": "شباب بلوزداد يفقد آخر مؤسسيه",
+   "url": "https://www.elkhabar.com/sport/شباب-بلوزداد-يفقد-آخر-مؤسسيه-276094",
+   "summary": "\"عمي مسعود\" كان من بين الموقعين على وثيقة تأسيس نادي أبناء لعقيبة.",
+   "content_head": ""
+  },
+  {
+   "article_id": "99336fd5dcf411ba",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-08T19:59:00+00:00",
+   "title": "خط نقل جديد بهذه الولاية",
+   "url": "https://www.elkhabar.com/societe/خط-نقل-جديد-بهذه-الولاية-276093",
+   "summary": "بهدف تحسين الخدمات المقدمة للمواطنين.",
+   "content_head": ""
+  },
+  {
+   "article_id": "bf3e0c24247307ed",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-08T19:42:00+00:00",
+   "title": "\"قدمنا إلى سكيكدة للترويج لمترشحي الأرندي والترويج لأفكاره\"",
+   "url": "https://www.elkhabar.com/nation/قدمنا-إلى-سكيكدة-للترويج-لمترشحي-الأرندي-والترويج-لأفكاره-276092",
+   "summary": "بودن يدعو مترشحي الحزب للفوز بـ 14 بلدية على الأقل.",
+   "content_head": ""
+  },
+  {
+   "article_id": "99659212e0ce5586",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-08T19:07:00+00:00",
+   "title": "صيدلي ضحية جريمة قتل في قسنطينة",
+   "url": "https://www.elkhabar.com/societe/جريمة-قتل-تستنفر-نقابة-الصيادلة-276091",
+   "summary": "الولاية وأهل المهنة تحت الصدمة.",
+   "content_head": ""
+  },
+  {
+   "article_id": "29ff47fb793eb039",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-11-08T18:50:00+00:00",
+   "title": "الجماهير تحاصر مدرب ورئيس إتحاد خنشلة",
+   "url": "https://www.elkhabar.com/sport/الجماهير-تحاصر-مدرب-ورئيس-إتحاد-خنشلة-276090",
+   "summary": "عقب التعادل الإيجابي امام شباب عين تموشنت",
+   "content_head": ""
+  },
+  {
+   "article_id": "c28f7da193d5da8e",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-10-28T09:57:00+00:00",
+   "title": "قوة عسكرية جزائرية إلى النيجر.. الدلالة والرسالة",
+   "url": "https://www.elkhabar.com/chronique/قوة-عسكرية-جزائرية-إلى-النيجر-الدلالة-والرسالة-252822",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "00a6d233ca7cc814",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-10-19T15:31:00+00:00",
+   "title": "سركاجي 1995.. ثلاثون عاما من الغموض #فلاش_باك",
+   "url": "https://www.elkhabar.com/videos/سركاجي-1995-ثلاثون-عاما-من-الغموض-فلاش-باك-628",
+   "summary": "سركاجي 1995.. ثلاثون عاما من الغموض #فلاش_باك",
+   "content_head": ""
+  },
+  {
+   "article_id": "b733204cd249769b",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-10-15T12:12:00+00:00",
+   "title": "دربال يفتح الصندوق الأسود للانتخابات في عهد الرئيس بوتفليقة | #للتاريخ",
+   "url": "https://www.elkhabar.com/videos/دربال-يفتح-الصندوق-الأسود-للانتخابات-في-عهد-الرئيس-بوتفليقة-للتاريخ-627",
+   "summary": "دربال يفتح الصندوق الأسود للانتخابات في عهد الرئيس بوتفليقة | #للتاريخ",
+   "content_head": ""
+  },
+  {
+   "article_id": "d465c99a6c9a54e2",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-10-10T15:28:00+00:00",
+   "title": "الموسم الثالث العدد 4: إما الشرط الجزائي وإما منحة الوفاء | #طالوناد",
+   "url": "https://www.elkhabar.com/videos/الموسم-الثالث-العدد-4-إما-الشرط-الجزائي-وإما-منحة-الوفاء-طالوناد-626",
+   "summary": "الموسم الثالث العدد 4: إما الشرط الجزائي وإما منحة الوفاء | #طالوناد",
+   "content_head": ""
+  },
+  {
+   "article_id": "22bb1b7336a48bbf",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-10-09T16:03:00+00:00",
+   "title": "مصالحة اقتصادية لاسترجاع أموال المفسدين التائبين .. فارس مسدور ضيف #واضح",
+   "url": "https://www.elkhabar.com/videos/مصالحة-اقتصادية-لاسترجاع-أموال-المفسدين-التائبين-فارس-مسدور-ضيف-واضح-625",
+   "summary": "مصالحة اقتصادية لاسترجاع أموال المفسدين التائبين .. فارس مسدور ضيف #واضح",
+   "content_head": ""
+  },
+  {
+   "article_id": "3e1f97256577f6c7",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-10-09T13:08:00+00:00",
+   "title": "الجزائر في الساحل: التنمية قبل السلاح",
+   "url": "https://www.elkhabar.com/chronique/الجزائر-في-الساحل-التنمية-قبل-السلاح-252821",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "c8093119dd32af0e",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-10-07T12:16:00+00:00",
+   "title": "دخولي بين القضبان أبعدني عن طفلتي الصغيرة | #بارلوار",
+   "url": "https://www.elkhabar.com/videos/دخولي-بين-القضبان-أبعدني-عن-طفلتي-الصغيرة-بارلوار-623",
+   "summary": "دخولي بين القضبان أبعدني عن طفلتي الصغيرة | #بارلوار",
+   "content_head": ""
+  },
+  {
+   "article_id": "6f4d90bd3bead902",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-07-13T11:29:00+00:00",
+   "title": "ماذا يعني أن تمتلك الجزائر فضاء عرض لأكثر من 10 آلاف متفرج؟",
+   "url": "https://www.elkhabar.com/chronique/ماذا-يعني-أن-تمتلك-الجزائر-فضاء-عرض-لأكثر-من-10-آلاف-متفرج-252820",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "118370fe35ffbde2",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-06-16T12:49:00+00:00",
+   "title": "نموذج خالد عبر الزمن",
+   "url": "https://www.elkhabar.com/chronique/نموذج-خالد-عبر-الزمن-252819",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "7aca6726635267ca",
+   "source_id": "elkhabar",
+   "language": "ar",
+   "published_at": "2026-05-25T10:37:00+00:00",
+   "title": "إعادة التأمين والسيادة والاستقرار: نحو مقاربة استراتيجية للقدرات الوطنية",
+   "url": "https://www.elkhabar.com/chronique/إعادة-التأمين-والسيادة-والاستقرار-نحو-مقاربة-استراتيجية-للقدرات-الوطنية-252818",
+   "summary": "",
+   "content_head": ""
+  },
+  {
+   "article_id": "4919812e921792bc",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T15:59:56+00:00",
+   "title": "سفيان شايب يستقبل السفير القطري",
+   "url": "https://www.ennaharonline.com/%d8%b3%d9%81%d9%8a%d8%a7%d9%86-%d8%b4%d8%a7%d9%8a%d8%a8-%d9%8a%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%b3%d9%81%d9%8a%d8%b1-%d8%a7%d9%84%d9%82%d8%b7%d8%b1%d9%8a",
+   "summary": "استقبل كاتب الدولة لدى وزير الشؤون الخارجية، المكلف بالجالية الوطنية بالخارج، سفيان شايب، اليوم الاثنين، سفير دولة قطر بالجزائر، عبد العزيز علي النعمة. وحسب بيان للوزارة، شكل اللقاء مناسبة للإشادة بعلاقات الأخوة والتعاون التي تجمع البلدين الشقيقين. وبحث سبل تطويرها. كما استعرض الطرفان، الاستحقاقات ا",
+   "content_head": "استقبل كاتب الدولة لدى وزير الشؤون الخارجية، المكلف بالجالية الوطنية بالخارج، سفيان شايب، اليوم الاثنين، سفير دولة قطر بالجزائر، عبد العزيز علي النعمة. وحسب بيان للوزارة، شكل اللقاء مناسبة للإشادة بعلاقات الأخوة والتعاون التي تجمع البلدين الشقيقين. وبحث سبل تطويرها. كما استعرض الطرفان، الاستحقاقات الثنائية المقبلة، حسب ذات البيان. إضغط على الصورة لتحميل تطبيق النهار للإطلاع على كل الآخبار على البلاي ستور"
+  },
+  {
+   "article_id": "64485156120d1825",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T15:47:24+00:00",
+   "title": "حبس قاتل الصيدلي في قسنطينة",
+   "url": "https://www.ennaharonline.com/%d8%ad%d8%a8%d8%b3-%d9%82%d8%a7%d8%aa%d9%84-%d8%a7%d9%84%d8%b5%d9%8a%d8%af%d9%84%d9%8a-%d9%81%d9%8a-%d9%82%d8%b3%d9%86%d8%b7%d9%8a%d9%86%d8%a9",
+   "summary": "أصدر قاضي التحقيق، بمجلس قضاء قسنطينة، أمرا بإيداع المشتبه به في جريمة قتل المرحوم “ن.م”، وهو صيدلي بحي الدقسي عبد السلام بقسنطينة، رهن الحبس المؤقت. وحسب بيان لنيابة الجمهورية لدى محكمة قسنطينة، فإنه وبتاريخ 08 نوفمبر 2026 تلقت مصالح الأمن بلاغا مفاده العثور على جثة المرحوم “ن . م”، صيدلي بحي الدقس",
+   "content_head": "أصدر قاضي التحقيق، بمجلس قضاء قسنطينة، أمرا بإيداع المشتبه به في جريمة قتل المرحوم “ن.م”، وهو صيدلي بحي الدقسي عبد السلام بقسنطينة، رهن الحبس المؤقت. وحسب بيان لنيابة الجمهورية لدى محكمة قسنطينة، فإنه وبتاريخ 08 نوفمبر 2026 تلقت مصالح الأمن بلاغا مفاده العثور على جثة المرحوم “ن . م”، صيدلي بحي الدقسي عبد السلام بقسنطينة. إثر اعتداء بليغ بواسطة سلاح أبيض بذات الحي على الساعة (14:31). وتنقلت الضبطية القضائية رفقة وكيل الجمهورية إلى عين المكان أين باشرت تحرياتها للكشف عن ملابسات الجريمة. وأسفرت الت"
+  },
+  {
+   "article_id": "8c64339d735347e5",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T15:27:55+00:00",
+   "title": "التماس 10 سنوات حبسا نافذا لشبكة اجرامية إختلست مليار سنتيم من القرض الشعبي الجزائري",
+   "url": "https://www.ennaharonline.com/%d8%a7%d9%84%d8%aa%d9%85%d8%a7%d8%b3-10-%d8%b3%d9%86%d9%88%d8%a7%d8%aa-%d8%ad%d8%a8%d8%b3%d8%a7-%d9%86%d8%a7%d9%81%d8%b0%d8%a7-%d9%84%d8%b4%d8%a8%d9%83%d8%a9-%d8%a7%d8%ac%d8%b1%d8%a7%d9%85%d9%8a%d8%a9",
+   "summary": "التمس وكيل الجمهورية اليوم الاثنين لدى محكمة الجنح بسيدي امحمد تسليط عقوبة 10 سنوات حبسا نافذا لعصابة اجرامية متكونة من اربعة متهمين من بينهم موظف سابق مكلف بالزبائن من القرض الشعبي الجزائري وكالة رياض الفتح (ب.م.ع) على خلفية اختلاسهم اموال عمومية فاقت المليار سنتيم وبالرجوع الى تفاصيل قضية الحال تع",
+   "content_head": "التمس وكيل الجمهورية اليوم الاثنين لدى محكمة الجنح بسيدي امحمد تسليط عقوبة 10 سنوات حبسا نافذا لعصابة اجرامية متكونة من اربعة متهمين من بينهم موظف سابق مكلف بالزبائن من القرض الشعبي الجزائري وكالة رياض الفتح (ب.م.ع) على خلفية اختلاسهم اموال عمومية فاقت المليار سنتيم وبالرجوع الى تفاصيل قضية الحال تعود وقائع القضية الى تاريخ 21 ماي لقيام المتهمين باختلاس اموال عمومية بقيمة مليار و100 مليون سنتيم من القرض الشعبي الوطني” وكالة رياض الفتح”. وحسب مادار بجلسة المحاكمة فان المتهم الرئيسي كان يشغل منصب "
+  },
+  {
+   "article_id": "9441e5f980b3d67f",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T15:24:33+00:00",
+   "title": "بوفدش: الجزائر تقرر مصيرها بإرادة مؤسساتها السيّدة",
+   "url": "https://www.ennaharonline.com/%d8%a8%d9%88%d9%81%d8%af%d8%b4-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%aa%d9%82%d8%b1%d8%b1-%d9%85%d8%b5%d9%8a%d8%b1%d9%87%d8%a7-%d8%a8%d8%a5%d8%b1%d8%a7%d8%af%d8%a9-%d9%85%d8%a4%d8%b3%d8%b3",
+   "summary": "استذكرت رئيسة المجلس الشعبي الوطني الدكتورة خليدة بوفدش، في كلمة لها في مستهل أشغال اجتماع للمكتب اليوم الإثنين، ما عاناه الشعب الجزائري من مآسٍ على امتداد قرن ونيف من الزمن تحت الاحتلال الفرنسي. وحسب بيان للمجلس الشعبي الوطني، أوضحت بوفدش، أن هناك بعض الأطراف لاتزال تمتهن الازدواجية وتحنّ إلى زمن ا",
+   "content_head": "استذكرت رئيسة المجلس الشعبي الوطني الدكتورة خليدة بوفدش، في كلمة لها في مستهل أشغال اجتماع للمكتب اليوم الإثنين، ما عاناه الشعب الجزائري من مآسٍ على امتداد قرن ونيف من الزمن تحت الاحتلال الفرنسي. وحسب بيان للمجلس الشعبي الوطني، أوضحت بوفدش، أن هناك بعض الأطراف لاتزال تمتهن الازدواجية وتحنّ إلى زمن الوصاية والهيمنة. وباتت عاجزة عن استيعاب حقيقة مفادها أن عهد الإملاءات والتدخل في الشؤون الداخلية قد ولّى. وأن الجزائر -ومعها الدول الإفريقية- أصبحت تقرر مصيرها بإرادتها وإرادة مؤسساتها السيّدة. وتمتلك"
+  },
+  {
+   "article_id": "49489d6b8ee56617",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T15:06:27+00:00",
+   "title": "نجوم الخضر يصلون تباعا تحسبا لمواجهتي الطوغو",
+   "url": "https://www.ennaharonline.com/%d9%86%d8%ac%d9%88%d9%85-%d8%a7%d9%84%d8%ae%d8%b6%d8%b1-%d9%8a%d8%b5%d9%84%d9%88%d9%86-%d8%aa%d8%a8%d8%a7%d8%b9%d8%a7-%d8%aa%d8%ad%d8%b3%d8%a8%d8%a7-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%aa%d9%8a",
+   "summary": "حلّ صباح اليوم الإثنين، عدد من نجوم المنتخب الوطني، بأرض الوطن، تحسبا لخوض المباراة المقبلة التي ستجمعهم بمنتخب الطوغو. وبعد وصول الوافد الجديد، عبد الرحمان رباش، أمس الأحد، تبعه وصول كل من حاج موسى، وأحمد توبة، ابراهيم مازة، فارس شايبي، والبقية. ويأتي هذا تحسبا لانطلاق تربص المنتخب الوطني، الذي يسب",
+   "content_head": "حلّ صباح اليوم الإثنين، عدد من نجوم المنتخب الوطني، بأرض الوطن، تحسبا لخوض المباراة المقبلة التي ستجمعهم بمنتخب الطوغو. وبعد وصول الوافد الجديد، عبد الرحمان رباش، أمس الأحد، تبعه وصول كل من حاج موسى، وأحمد توبة، ابراهيم مازة، فارس شايبي، والبقية. ويأتي هذا تحسبا لانطلاق تربص المنتخب الوطني، الذي يسبق المواجهة المزدوجة ضد منتخب الطوغو، لحساب تصفيات كأس أمم إفريقيا. يذكر أن الناخب الوطني ابراهيم حمداني، أعفى حارس مرمى مولودية الجزائر، عبد اللطيف رمضان، من تربص الخضر، بسبب وفاة والده، وعوضه بحارس م"
+  },
+  {
+   "article_id": "bd418f1c4789d0b0",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T15:03:35+00:00",
+   "title": "إنقطاع الماء الشروب بهذه البلديات في العاصمة",
+   "url": "https://www.ennaharonline.com/%d8%a5%d9%86%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d9%85%d8%a7%d8%a1-%d8%a7%d9%84%d8%b4%d8%b1%d9%88%d8%a8-%d8%a8%d9%87%d8%b0%d9%87-%d8%a7%d9%84%d8%a8%d9%84%d8%af%d9%8a%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7",
+   "summary": "أعلنت شركة المياه والتطهير للجزائر “سيال”، عن برمجة أشغال صيانة دورية على مستوى قناة رئيسية لنقل المياه، اليوم الإثنين، مما سيترتب عنه تذبذب في التزويد بالمياه الشروب ببعض البلديات. وحسب بيان لذات الهيئة، ستنتُج عن هذه الأشغال بعض التذبذبات في عملية التزويد بالمياه الشروب على مستوى بعض الأحياء التاب",
+   "content_head": "أعلنت شركة المياه والتطهير للجزائر “سيال”، عن برمجة أشغال صيانة دورية على مستوى قناة رئيسية لنقل المياه، اليوم الإثنين، مما سيترتب عنه تذبذب في التزويد بالمياه الشروب ببعض البلديات. وحسب بيان لذات الهيئة، ستنتُج عن هذه الأشغال بعض التذبذبات في عملية التزويد بالمياه الشروب على مستوى بعض الأحياء التابعة لبلديات بني مسوس، الشراقة، بوزريعة، وادي قريش (بوفريزي)، بولوغين (زغارة) ورايس حميدو (الجهة العلوية). وأكدت سيال أن العودة إلى برنامج التوزيع المعتاد ستتم تدريجيا ابتداءً من يوم الأربعاء القادم. إض"
+  },
+  {
+   "article_id": "89cdb31685a8b0be",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T14:53:53+00:00",
+   "title": "بداري يبحث مع وفد صيني مشروع إنجاز مركز بيانات للذكاء الاصطناعي",
+   "url": "https://www.ennaharonline.com/%d8%a8%d8%af%d8%a7%d8%b1%d9%8a-%d9%8a%d8%a8%d8%ad%d8%ab-%d9%85%d8%b9-%d9%88%d9%81%d8%af-%d8%b5%d9%8a%d9%86%d9%8a-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a5%d9%86%d8%ac%d8%a7%d8%b2-%d9%85%d8%b1%d9%83%d8%b2",
+   "summary": "بحث وزير التعليم العالي والبحث العلمي، كمال بداري، مساء اليوم الإثنين، بالمدرسة الوطنية العليا للذكاء الاصطناعي بالقطب العلمي والتكنولوجي الشهيد عبد الحفيظ إحدادن سيدي عبد الله، مع وفد صيني، مشروع إنجاز مركز بيانات للذكاء الاصطناعي على مستوى المدرسة الوطنية العليا للذكاء الاصطناعي بسيدي عبد الله. وح",
+   "content_head": "بحث وزير التعليم العالي والبحث العلمي، كمال بداري، مساء اليوم الإثنين، بالمدرسة الوطنية العليا للذكاء الاصطناعي بالقطب العلمي والتكنولوجي الشهيد عبد الحفيظ إحدادن سيدي عبد الله، مع وفد صيني، مشروع إنجاز مركز بيانات للذكاء الاصطناعي على مستوى المدرسة الوطنية العليا للذكاء الاصطناعي بسيدي عبد الله. وحسب ما نشره الوزير على صفحته بفايسبوك، تمحورت المباحثات حول الجوانب التقنية والهندسية للمشروع. لاسيما البنية التحتية والتجهيزات التكنولوجية، والجدول الزمني للتنفيذ. والمتطلبات البيئية والتنظيمية، بما ي"
+  },
+  {
+   "article_id": "97014460db977454",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T14:42:34+00:00",
+   "title": "شايب يوقع على سجل التعازي إثر حادثة إطلاق النار ببولندا",
+   "url": "https://www.ennaharonline.com/%d8%b4%d8%a7%d9%8a%d8%a8-%d9%8a%d9%88%d9%82%d8%b9-%d8%b9%d9%84%d9%89-%d8%b3%d8%ac%d9%84-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d8%b2%d9%8a-%d8%a5%d8%ab%d8%b1-%d8%ad%d8%a7%d8%af%d8%ab%d8%a9-%d8%a5%d8%b7%d9%84",
+   "summary": "وقّع كاتب الدولة لدى وزير الشؤون الخارجية، المكلف بالجالية الوطنية بالخارج، سفيان شايب، بإسم الحكومة الجزائرية، اليوم الإثنين، بمقر سفارة بولندا بالجزائر، على سِجل التعازي. وحسب بيان لوزارة الشؤون الخارجية، وقع سفيان شايب، على سجل التعازي، إثر حادثة إطلاق النار التي شهدتها مدينة كراكوف بجمهورية بولن",
+   "content_head": "وقّع كاتب الدولة لدى وزير الشؤون الخارجية، المكلف بالجالية الوطنية بالخارج، سفيان شايب، بإسم الحكومة الجزائرية، اليوم الإثنين، بمقر سفارة بولندا بالجزائر، على سِجل التعازي. وحسب بيان لوزارة الشؤون الخارجية، وقع سفيان شايب، على سجل التعازي، إثر حادثة إطلاق النار التي شهدتها مدينة كراكوف بجمهورية بولندا. والتي خلّفت ضحايا ومصابين. وجاء في نص التعزية: “تلقت الجزائر ببالغ الحزن والأسى نبأ حادث إطلاق النار المأساوي الذي شهدته مدينة كراكوف بجمهورية بولندا مؤخرا والذي خلف العديد من الضحايا والمصابين. و"
+  },
+  {
+   "article_id": "94030f0e8fcaaa96",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T14:36:38+00:00",
+   "title": "افتتاح قمة المناخ “كوب 31” بأنطاليا التركية",
+   "url": "https://www.ennaharonline.com/%d8%a7%d9%81%d8%aa%d8%aa%d8%a7%d8%ad-%d9%82%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d9%86%d8%a7%d8%ae-%d9%83%d9%88%d8%a8-31-%d8%a8%d8%a3%d9%86%d8%b7%d8%a7%d9%84%d9%8a%d8%a7-%d8%a7%d9%84%d8%aa%d8%b1%d9%83",
+   "summary": "افتتحت اليوم الإثنين بمدينة أنطاليا التركية، أشغال مؤتمر الأطراف لاتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ “كوب 31” والتي ستدوم إلى غاية 20 نوفمبر بمشاركة ممثلين عن 196 دولة و7 منظمات دولية. وستعكف القمة، على بحث تحديات التغيرات المناخية في العالم. وتعزيز الانتقال الطاقوي العادل مع دراسة توفي",
+   "content_head": "افتتحت اليوم الإثنين بمدينة أنطاليا التركية، أشغال مؤتمر الأطراف لاتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ “كوب 31” والتي ستدوم إلى غاية 20 نوفمبر بمشاركة ممثلين عن 196 دولة و7 منظمات دولية. وستعكف القمة، على بحث تحديات التغيرات المناخية في العالم. وتعزيز الانتقال الطاقوي العادل مع دراسة توفير تمويلات للدول النامية في المجال المناخي. وتضم قائمة المشاركين على مستوى القادة 37 رئيس دولة و35 رئيس حكومة. إضافة إلى ممثلين عن المفوضية الأوروبية والأمم المتحدة والجمعية العامة للأمم المتحدة. والبن"
+  },
+  {
+   "article_id": "29a98b172d427e71",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-09T14:10:00+00:00",
+   "title": "إطلاق حملة تحسيسية وطنية حول أهمية التصريح بالعمال لدى الضمان الاجتماعي",
+   "url": "https://www.ennaharonline.com/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%ad%d9%85%d9%84%d8%a9-%d8%aa%d8%ad%d8%b3%d9%8a%d8%b3%d9%8a%d8%a9-%d9%88%d8%b7%d9%86%d9%8a%d8%a9-%d8%ad%d9%88%d9%84-%d8%a3%d9%87%d9%85%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa",
+   "summary": "أطلق الصندوق حملة تحسيسية وطنية حول أهمية التصريح بالعمال لدى الضمان الاجتماعي، تحت شعار: “التصريح بالعمال.. حماية لحقوقهم”، وذلك خلال الفترة الممتدة من 09 إلى 25 نوفمبر 2026، عبر كامل وكالاته الولائية. وتتوجه الحملة إلى كافة الفاعلين الاقتصاديين والمهنيين، وتشمل أرباب العمل والمستخدمين في مختلف قطا",
+   "content_head": "أطلق الصندوق حملة تحسيسية وطنية حول أهمية التصريح بالعمال لدى الضمان الاجتماعي، تحت شعار: “التصريح بالعمال.. حماية لحقوقهم”، وذلك خلال الفترة الممتدة من 09 إلى 25 نوفمبر 2026، عبر كامل وكالاته الولائية. وتتوجه الحملة إلى كافة الفاعلين الاقتصاديين والمهنيين، وتشمل أرباب العمل والمستخدمين في مختلف قطاعات النشاط. والعمال الأجراء، لا سيما غير المصرح بهم والعمال الجدد. بالإضافة إلى أصحاب المؤسسات المصغرة والناشطة في المجالات الحرفية، التجارية، والفلاحية. والمهنيين في قطاعات البناء والأشغال العمومية، "
+  },
+  {
+   "article_id": "95970d130980def5",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T20:46:01+00:00",
+   "title": "مازة ممرّرا حاسما في الداربي أمام كولن",
+   "url": "https://www.ennaharonline.com/%d9%85%d8%a7%d8%b2%d8%a9-%d9%85%d9%85%d8%b1%d9%91%d8%b1%d8%a7-%d8%ad%d8%a7%d8%b3%d9%85%d8%a7-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d8%a7%d8%b1%d8%a8%d9%8a-%d8%a3%d9%85%d8%a7%d9%85-%d9%83%d9%88%d9%84%d9%86",
+   "summary": "واصل الدولي الجزائري، إبراهيم مازة، تألقه اللافت في الدوري الألماني، بعدما بصم على تمريرة حاسمة خلال مواجهة الداربي التي جمعت ناديه باير ليفركوزن بمضيفه كولن، لحساب الجولة التاسعة من منافسات البوندسليغا. وقدم مازة تمريرة مميزة لزميله باتريك شيك، الذي نجح في ترجمتها إلى هدف في الدقيقة الـ85، ليواصل ا",
+   "content_head": ""
+  },
+  {
+   "article_id": "1c5adc2adde0c33a",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T19:33:03+00:00",
+   "title": "رئيس بولندا يهنئ رئيس الجمهورية بمناسبة ذكرى ثورة نوفمبر المُظفّرة",
+   "url": "https://www.ennaharonline.com/%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a8%d9%88%d9%84%d9%86%d8%af%d8%a7-%d9%8a%d9%87%d9%86%d8%a6-%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%ac%d9%85%d9%87%d9%88%d8%b1%d9%8a%d8%a9-%d8%a8%d9%85%d9%86%d8%a7%d8%b3",
+   "summary": "تلقى رئيس الجمهورية، عبد المجيد تبون، رسالة تهنئة من رئيس جمهورية بولندا، كارول نافروتسكي، بمناسبة ثورة نوفمبر المظفرة. بحسب بيان لرئاسة الجمهورية. وأعرب الرئيس البولندي عن أصدق تهانيه وتمنياته بموفور الصحة والسعادة لرئيس الجمهورية، مؤكداً حرص بلاده على تعزيز التعاون الثنائي والمتعدد الأطراف مع الجز",
+   "content_head": ""
+  },
+  {
+   "article_id": "6db1c44c85f64ef3",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T19:27:17+00:00",
+   "title": "موبيليس تطلق تحدي ريفولوشن .. “MU Champions”",
+   "url": "https://www.ennaharonline.com/%d9%85%d9%88%d8%a8%d9%8a%d9%84%d9%8a%d8%b3-%d8%aa%d8%b7%d9%84%d9%82-%d8%aa%d8%ad%d8%af%d9%8a-%d8%b1%d9%8a%d9%81%d9%88%d9%84%d9%88%d8%b4%d9%86-mu-champions",
+   "summary": "أعلنت مؤسسة موبيليس عن إطلاق تحدٍ وطني جديد تحت اسم «MU Champions»، احتفاءً باستخدامهم وتجميعهم لوحدات موبيليس (Mobilis Unit). في إطار حرصه المتواصل على مكافأة وفاء زبائنه وتثمين تفاعلهم مع عروض “ريفولوشن”. وبحسب بيان صحفي لمؤسسة موبيليس، يستهدف التحدي فئتين من الزبائن: – أفضل 06 مستهلكين لوحدات MU.",
+   "content_head": ""
+  },
+  {
+   "article_id": "fa3a02d72925b7ef",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T19:06:25+00:00",
+   "title": "سفينة من البحرية الإيطالية ترسو بميناء جن جن في إطار التعاون العسكري الثنائي بين البلدين",
+   "url": "https://www.ennaharonline.com/%d8%b3%d9%81%d9%8a%d9%86%d8%a9-%d9%85%d9%86-%d8%a7%d9%84%d8%a8%d8%ad%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b7%d8%a7%d9%84%d9%8a%d8%a9-%d8%aa%d8%b1%d8%b3%d9%88-%d8%a8%d9%85%d9%8a%d9%86%d8%a7",
+   "summary": "رست سفينة طواف أعالي البحار التابعة للبحرية الإيطالية “ITS BETTICA P-492″، اليوم الأحد، بميناء جن جن بولاية جيجل، في توقف يدوم خمسة أيام، وذلك في إطار تجسيد برنامج التعاون العسكري الثنائي مع إيطاليا، وتنفيذا لطبعة 2026 من التمرين المشترك “ميداكس-إ-26”. وحسب بيان لوزارة الدفاع الوطني، أدى قائد السفين",
+   "content_head": ""
+  },
+  {
+   "article_id": "d252503f5ef59a79",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T19:04:33+00:00",
+   "title": "شباب بلوزداد يعزز صدارته وشبيبة الساورة تحقق أول فوز هذا الموسم",
+   "url": "https://www.ennaharonline.com/%d8%b4%d8%a8%d8%a7%d8%a8-%d8%a8%d9%84%d9%88%d8%b2%d8%af%d8%a7%d8%af-%d9%8a%d8%b9%d8%b2%d8%b2-%d8%b5%d8%af%d8%a7%d8%b1%d8%aa%d9%87-%d9%88%d8%b4%d8%a8%d9%8a%d8%a8%d8%a9-%d8%a7%d9%84%d8%b3%d8%a7%d9%88",
+   "summary": "واصل شباب بلوزداد عروضه القوية في منافسة الرابطة المحترفة، بعدما عاد بفوز ثمين من ملعب 20 أوت بالعناصر أمام نجم بن عكنون بهدف دون رد، في إطار الجولة التاسعة، ليعزز بذلك موقعه في صدارة الترتيب العام. وبفضل هذا الانتصار، رفع «السياربي» رصيده إلى 20 نقطة، مبتعدًا بفارق ثلاث نقاط عن شبيبة القبائل صاحب ا",
+   "content_head": ""
+  },
+  {
+   "article_id": "0312269160272dab",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T18:15:49+00:00",
+   "title": "رئيس الجمهورية يتلقى تهاني رئيسي سريلانكا والجبل الأسود بذكرى ثورة نوفمبر المجيدة",
+   "url": "https://www.ennaharonline.com/%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%ac%d9%85%d9%87%d9%88%d8%b1%d9%8a%d8%a9-%d9%8a%d8%aa%d9%84%d9%82%d9%89-%d8%aa%d9%87%d8%a7%d9%86%d9%8a-%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a-%d8%b3%d8%b1%d9%8a%d9%84",
+   "summary": "تلقى رئيس الجمهورية، عبد المجيد تبون، رسالة تهنئة كل من رئيس جمهورية سريلانكا الاشتراكية الديمقراطية، أنورا كومارا ديساناياكا، ورئيس الجبل الأسود، ياموف ميلاتوفيتش، بمناسبة الذكرى الثانية والسبعين لثورة نوفمبر المجيدة. وأعرب الرئيس السريلانكي، في رسالته، عن أصدق تمنياته للرئيس تبون بدوام الصحة والسع",
+   "content_head": ""
+  },
+  {
+   "article_id": "bf075b7d62519f53",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T17:55:31+00:00",
+   "title": "الرئيس تبون يتلقى التهاني بمناسبة ذكرى اندلاع ثورة التحرير المجيدة",
+   "url": "https://www.ennaharonline.com/%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%aa%d8%a8%d9%88%d9%86-%d9%8a%d8%aa%d9%84%d9%82%d9%89-%d8%a7%d9%84%d8%aa%d9%87%d8%a7%d9%86%d9%8a-%d8%a8%d9%85%d9%86%d8%a7%d8%b3%d8%a8%d8%a9-%d8%b0%d9%83%d8%b1",
+   "summary": "تلقى رئيس الجمهورية، عبد المجيد تبون، رسائل تهنئة من عدد من رؤساء الدول بمناسبة الذكرى الثانية والسبعين لاندلاع الثورة التحريرية المجيدة. تقدم رئيس أوزبكستان، شوكت مير ضيائيف، في رسالته، بأحر التهاني القلبية إلى رئيس الجمهورية والشعب الجزائري، مثمناً مكانة الجزائر بوصفها أحد الشركاء المهمين، ومؤكداً",
+   "content_head": ""
+  },
+  {
+   "article_id": "b618455563808771",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T17:44:27+00:00",
+   "title": "لاعبو “سوسطارة” يحتفلون بالسوبر الإفريقي ويجمعون: «وُلدنا لصناعة التاريخ»",
+   "url": "https://www.ennaharonline.com/%d9%84%d8%a7%d8%b9%d8%a8%d9%88-%d8%b3%d9%88%d8%b3%d8%b7%d8%a7%d8%b1%d8%a9-%d9%8a%d8%ad%d8%aa%d9%81%d9%84%d9%88%d9%86-%d8%a8%d8%a7%d9%84%d8%b3%d9%88%d8%a8%d8%b1-%d8%a7%d9%84%d8%a5%d9%81%d8%b1%d9%8a",
+   "summary": "احتفل لاعبو اتحاد الجزائر بلقب كأس السوبر الإفريقي، عقب الإطاحة بماميلودي صن داونز الجنوب إفريقي، في عقر داره وأمام جماهيره، في إنجاز جديد يُضاف إلى سجل النادي الجزائري على الصعيد القاري. وارتدى لاعبو «سوسطارة» قمصانًا خاصة كُتب عليها شعار «وُلدنا لصناعة التاريخ»، وحملت أسماء جميع عناصر الفريق، في أ",
+   "content_head": ""
+  },
+  {
+   "article_id": "f9125059e377ee95",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T17:33:51+00:00",
+   "title": "أمير الكويت ورئيس جيبوتي يهنئان الرئيس تبون بمناسبة الذكرى الـ72 لاندلاع ثورة نوفمبر",
+   "url": "https://www.ennaharonline.com/%d8%a3%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d9%83%d9%88%d9%8a%d8%aa-%d9%88%d8%b1%d8%a6%d9%8a%d8%b3-%d8%ac%d9%8a%d8%a8%d9%88%d8%aa%d9%8a-%d9%8a%d9%87%d9%86%d8%a6%d8%a7%d9%86-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a",
+   "summary": "تلقى رئيس الجمهورية، عبد المجيد تبون، رسالتي تهنئة من رئيس جمهورية جيبوتي، إسماعيل عمر جيله، وأمير دولة الكويت، مشعل الأحمد الجابر الصباح، بمناسبة الذكرى الثانية والسبعين لاندلاع ثورة نوفمبر التحريرية المباركة. وأعرب الرئيس الجيبوتي، في رسالته، عن أحر التهاني القلبية وأصدق التمنيات لرئيس الجمهورية و",
+   "content_head": ""
+  },
+  {
+   "article_id": "5fdf2e0ca13b6e61",
+   "source_id": "ennahar",
+   "language": "ar",
+   "published_at": "2026-11-08T17:19:39+00:00",
+   "title": "رئيس مفوضية الاتحاد الإفريقي: إرث ثورة نوفمبر يظلّ مصدر إلهام للقارة الإفريقية",
+   "url": "https://www.ennaharonline.com/%d8%b1%d8%a6%d9%8a%d8%b3_-%d9%85%d9%81%d9%88%d8%b6%d9%8a%d8%a9_-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af_-%d8%a7%d9%84%d8%a5%d9%81%d8%b1%d9%8a%d9%82%d9%8a-%d8%a5%d8%b1%d8%ab-%d8%ab%d9%88%d8%b1%d8%a9",
+   "summary": "تلقى رئيس الجمهورية، عبد المجيد تبون، رسالة تهنئة من رئيس مفوضية الاتحاد الإفريقي، محمود علي يوسف، بمناسبة الذكرى الثانية والسبعين لثورة نوفمبر المجيدة. وأعرب رئيس مفوضية الاتحاد الإفريقي، باسمه وباسم الاتحاد، عن أصدق تهانيه لرئيس الجمهورية وللشعب الجزائري، مشيداً بالتضحيات الجسيمة التي قدمتها الجزا",
+   "content_head": ""
+  }
+ ],
+ "events": {
+  "visa_spain_consulate": [
+   "a06010abede1cce1",
+   "d79aa2a2f618beb1"
+  ],
+  "aqs_steel_exports": [
+   "d9be29e004a956d3",
+   "eae68a98342119c7"
+  ],
+  "startup_fund_world_bank": [
+   "67b9a871628a5bf8",
+   "cf7919c83b22451c"
+  ],
+  "agriculture_council_of_ministers": [
+   "c77f846955d413eb",
+   "a0b75265bc19ebb6"
+  ],
+  "unesco_mausoleums": [
+   "acaddb4a9ca33ea6",
+   "d164a02dfdb38e62"
+  ],
+  "pharmacist_murder_constantine": [
+   "d1210679aff73bc5",
+   "3df7c375c4445d6f",
+   "99659212e0ce5586",
+   "64485156120d1825"
+  ],
+  "eu_anp_niger": [
+   "69505625da64eaf1",
+   "c7c74cd9cdb2025b",
+   "e3e185b10d3c094c"
+  ],
+  "mobilis_mu_champions": [
+   "b81cd9f1a69e3683",
+   "6db1c44c85f64ef3"
+  ],
+  "maza_cologne_derby": [
+   "a08ba81a937c2099",
+   "95970d130980def5"
+  ],
+  "water_cut_algiers": [
+   "e429905cc9f9a704",
+   "bd418f1c4789d0b0"
+  ],
+  "gas_exports_surge": [
+   "1de0bc8065faa933",
+   "f4577dc524259a76"
+  ],
+  "ai_data_center_china": [
+   "7228db1b0e389fd8",
+   "a3fb3a10bb31f265",
+   "89cdb31685a8b0be"
+  ],
+  "supercup_usma": [
+   "fcada9d3e8b23d1e",
+   "9acfc866fce92ac6",
+   "b618455563808771"
+  ],
+  "crb_leads_ligue1": [
+   "8e6e6773a7d6dbb3",
+   "821c1da807888a92",
+   "d252503f5ef59a79"
+  ],
+  "togo_goalkeeper_withdraws": [
+   "ef8f8947efa740f7",
+   "11d4dc0e3d6e2423"
+  ],
+  "fennecs_arrive_algiers": [
+   "6aa6bb8807fc4845",
+   "d41bc5551cbd1dc8",
+   "49489d6b8ee56617"
+  ],
+  "nov1_anniversary_greetings": [
+   "1c5adc2adde0c33a",
+   "0312269160272dab",
+   "bf075b7d62519f53",
+   "f9125059e377ee95",
+   "5fdf2e0ca13b6e61"
+  ],
+  "poland_shooting_condolences": [
+   "c8f4313a75d07f64",
+   "97014460db977454"
+  ],
+  "boufedech_statement": [
+   "5e14229bd88e3411",
+   "9441e5f980b3d67f"
+  ],
+  "chips_company_oil_speculation": [
+   "d98258f90e629651",
+   "3ba90dba05dd136e"
+  ],
+  "flu_variants_warning": [
+   "a714bf078d577379",
+   "ea258760509b5a58"
+  ],
+  "italian_navy_ship_visit": [
+   "07006bddc2276aee",
+   "fa3a02d72925b7ef"
+  ],
+  "chengriha_military_region_visit": [
+   "5665c38ca235a422",
+   "86ae50879e283cb9"
+  ],
+  "potato_supply_markets": [
+   "76fe032086eaf4d4",
+   "6de8726b74d70761"
+  ]
+ },
+ "ambiguous": [
+  "f5f6858cdd29630f",
+  "7112454703529303",
+  "1d503a8d2d9f6059",
+  "d37753740bc01caa",
+  "383c2588664e6ca3",
+  "3cef01b89b58d833",
+  "780988fa49b03773",
+  "6488a2d989f3ae16",
+  "5f6a6e3068cf030c",
+  "de330c01691f4a3c",
+  "bf3e0c24247307ed",
+  "1fa61ae28c7810d9",
+  "ea8ccad075ab2f22",
+  "d9e8f0bfe94dd9b4",
+  "2d7752a250e10c47",
+  "6f4d90bd3bead902",
+  "3e1f97256577f6c7",
+  "c28f7da193d5da8e",
+  "892d0245ce64bd77"
+ ]
+}

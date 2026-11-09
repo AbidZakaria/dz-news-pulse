@@ -71,3 +71,31 @@ def test_missing_tables_give_a_helpful_503(monkeypatch):
     response = client.get("/overview")
     assert response.status_code == 503
     assert "dz_news_pulse" in response.json()["detail"]
+
+
+def test_overview_merges_warehouse_and_story_totals(monkeypatch):
+    answers = iter([[{"total_articles": 10}], [{"stories": 4, "multi_source_stories": 1}]])
+    monkeypatch.setattr(main, "query", lambda *_a, **_k: next(answers))
+    assert client.get("/overview").json() == {
+        "total_articles": 10, "stories": 4, "multi_source_stories": 1,
+    }
+
+
+def test_stories_filters_are_passed_through(fake_query):
+    client.get("/stories?days=3&min_sources=2&topic=economy&language=ar&limit=5")
+    assert fake_query.calls[0][1] == {
+        "days": 3, "min_sources": 2, "min_articles": 1, "topic": "economy",
+        "language": "ar", "limit": 5,
+    }
+
+
+def test_story_detail_includes_articles(monkeypatch):
+    answers = iter([[{"story_id": 7, "headline": "h"}], [{"article_id": "a1", "published_first": True}]])
+    monkeypatch.setattr(main, "query", lambda *_a, **_k: next(answers))
+    body = client.get("/stories/7").json()
+    assert body["story_id"] == 7 and body["articles"][0]["article_id"] == "a1"
+
+
+def test_unknown_story_is_a_404(fake_query):
+    fake_query.rows = []
+    assert client.get("/stories/999").status_code == 404

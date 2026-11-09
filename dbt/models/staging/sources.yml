@@ -11,3 +11,12 @@ sources:
         freshness:
           warn_after: {count: 12, period: hour}
           error_after: {count: 48, period: hour}
+
+  - name: intel
+    description: Output of the Python NLP stages (embeddings, story clustering). Written by the pipeline, read by dbt.
+    schema: intel
+    tables:
+      - name: stories
+        description: One row per detected news story (a group of articles about the same event).
+      - name: article_nlp
+        description: Per-article NLP results, including the story each article was assigned to.

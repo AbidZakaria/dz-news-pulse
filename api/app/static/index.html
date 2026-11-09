@@ -29,6 +29,16 @@
   .chip { border:1px solid var(--line); border-radius:999px; padding:2px 10px; font-size:14px; }
   .chip small { color:var(--muted); margin-inline-start:4px; }
   ul.news { list-style:none; margin:0; padding:0; }
+  .story { border-top:1px solid var(--line); padding:10px 0; }
+  .story:first-of-type { border-top:0; }
+  .story summary { cursor:pointer; list-style:none; font-weight:500; }
+  .story summary::-webkit-details-marker { display:none; }
+  .story .meta { margin-top:4px; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .story ul { list-style:none; margin:8px 0 0; padding:0 0 0 14px; border-inline-start:2px solid var(--line); }
+  .story li { padding:5px 0; font-size:14px; }
+  .story li a { color:var(--ink); text-decoration:none; } .story li a:hover { color:var(--accent); }
+  .first { color:var(--accent); font-size:12px; margin-inline-start:6px; }
+  .copy { color:var(--muted); font-size:12px; margin-inline-start:6px; }
   ul.news li { padding:8px 0; border-top:1px solid var(--line); }
   ul.news li:first-child { border-top:0; }
   ul.news a { color:var(--ink); text-decoration:none; font-weight:500; }
@@ -50,6 +60,9 @@
     <p class="muted">Français</p><div class="chips" id="kw-fr"></div>
     <p class="muted">العربية</p><div class="chips" id="kw-ar" dir="rtl"></div>
   </section>
+  <section class="card wide"><h2>Stories covered by several outlets</h2>
+    <p class="muted">Articles about the same event are grouped automatically, even across French and Arabic. Open a story to see who published first.</p>
+    <div id="stories">Loading&hellip;</div></section>
   <section class="card wide"><h2>Latest headlines</h2><ul class="news" id="news"></ul></section>
 </main>
 <script>
@@ -65,16 +78,17 @@ async function get(path) {
 
 async function main() {
   try {
-    const [ov, topics, kfr, kar, news] = await Promise.all([
+    const [ov, topics, kfr, kar, news, stories] = await Promise.all([
       get('/overview'), get('/topics?days=7'),
       get('/keywords/trending?days=3&language=fr&limit=15'),
       get('/keywords/trending?days=3&language=ar&limit=15'),
       get('/articles?days=7&limit=15'),
+      get('/stories?days=30&min_sources=2&limit=12'),
     ]);
 
     $('stats').innerHTML = [
       [ov.total_articles, 'articles collected'], [ov.sources, 'news sources'],
-      [ov.topics_detected, 'topics detected'],
+      [ov.topics_detected, 'topics detected'], [ov.multi_source_stories ?? 0, 'multi-outlet stories'],
       [ov.latest_article_at ? new Date(ov.latest_article_at).toLocaleString() : '-', 'latest article'],
     ].map(([v, l]) => `<div class="stat"><b>${esc(v)}</b><span>${l}</span></div>`).join('');
 
@@ -93,6 +107,26 @@ async function main() {
     $('news').innerHTML = news.map((a) => `
       <li><span class="tag">${esc(a.topic)}</span><span class="tag">${esc(a.source_name)}</span>
           <a href="${esc(a.url)}" target="_blank" rel="noopener" dir="auto">${esc(a.title)}</a></li>`).join('');
+    $('stories').innerHTML = stories.length ? stories.map((s) => `
+      <details class="story" data-id="${s.story_id}">
+        <summary><span dir="auto">${esc(s.headline)}</span>
+          <div class="meta"><span class="tag">${s.independent_source_count} outlets</span>
+          <span class="tag">${s.article_count} articles</span>
+          ${s.languages.map((l) => `<span class="tag">${esc(l)}</span>`).join('')}
+          ${s.topic ? `<span class="tag">${esc(s.topic)}</span>` : ''}</div></summary>
+        <ul><li class="muted">Loading&hellip;</li></ul>
+      </details>`).join('') : '<span class="muted">No multi-outlet stories yet.</span>';
+    document.querySelectorAll('.story').forEach((d) => d.addEventListener('toggle', async () => {
+      if (!d.open || d.dataset.loaded) return;
+      d.dataset.loaded = '1';
+      const detail = await get('/stories/' + d.dataset.id);
+      d.querySelector('ul').innerHTML = detail.articles.map((a) => `
+        <li><span class="tag">${esc(a.source_name)}</span><span class="tag">${esc(a.language)}</span>
+          <a href="${esc(a.url)}" target="_blank" rel="noopener" dir="auto">${esc(a.title)}</a>
+          ${a.published_first ? '<span class="first">first</span>' : ''}
+          ${a.is_copy ? '<span class="copy">copy of another article</span>' : ''}
+          ${a.confidence === 'medium' ? '<span class="copy">lower confidence</span>' : ''}</li>`).join('');
+    }));
   } catch (e) {
     $('error').style.display = 'block';
     $('error').textContent = e.message;

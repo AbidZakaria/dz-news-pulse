@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Annotated, Literal
 
 import psycopg2
-from fastapi import FastAPI, Query, Request
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import FileResponse, JSONResponse
 from psycopg2 import errors
 
@@ -53,7 +53,33 @@ def health():
 @app.get("/overview", tags=["analytics"])
 def overview():
     """Headline numbers for the whole warehouse."""
-    return query(queries.OVERVIEW)[0]
+    return {**query(queries.OVERVIEW)[0], **query(queries.STORY_TOTALS)[0]}
+
+
+@app.get("/stories", tags=["stories"])
+def stories(
+    days: Days = 7,
+    min_sources: Annotated[int, Query(ge=1, description="Minimum independent outlets.")] = 1,
+    min_articles: Annotated[int, Query(ge=1)] = 1,
+    topic: Annotated[str | None, Query(description="Topic id, e.g. 'economy'.")] = None,
+    language: Language = None,
+    limit: Annotated[int, Query(ge=1, le=100)] = 20,
+):
+    """News stories: groups of articles about the same event, widest coverage first."""
+    return query(
+        queries.STORIES,
+        {"days": days, "min_sources": min_sources, "min_articles": min_articles,
+         "topic": topic, "language": language, "limit": limit},
+    )
+
+
+@app.get("/stories/{story_id}", tags=["stories"])
+def story(story_id: int):
+    """One story with every article that covers it (who published first, how they differ)."""
+    found = query(queries.STORY, {"story_id": story_id})
+    if not found:
+        raise HTTPException(status_code=404, detail="Story not found")
+    return {**found[0], "articles": query(queries.STORY_ARTICLES, {"story_id": story_id})}
 
 
 @app.get("/topics", tags=["analytics"])

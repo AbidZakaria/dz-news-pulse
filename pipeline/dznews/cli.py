@@ -3,6 +3,12 @@
   ingest [SOURCE_ID ...]   fetch live feeds (all sources by default)
   load-sample              load the synthetic fixtures in sample_data/ (offline demo + CI)
   check                    run the data-quality checks
+  migrate                  apply pending database migrations
+  embed                    compute embeddings for new articles
+  stories                  group embedded articles into stories
+  enrich                   embed + stories (what the DAG runs)
+  rebuild-stories          rebuild all stories from stored embeddings (after retuning)
+  evaluate [--grid]        score story clustering against the hand-labelled evaluation set
 """
 
 import argparse
@@ -11,7 +17,7 @@ import sys
 import uuid
 from datetime import UTC, datetime
 
-from dznews import config, extract, ingest, load, quality, sources, transform
+from dznews import config, extract, ingest, intel, load, quality, sources, transform
 
 # Which fixture feeds which (fake) source when loading the offline sample.
 SAMPLE_FILES = {
@@ -51,6 +57,16 @@ def main(argv: list[str] | None = None) -> int:
     p_ingest.add_argument("source_ids", nargs="*")
     sub.add_parser("load-sample", help="load offline fixtures")
     sub.add_parser("check", help="run data-quality checks")
+    p_eval = sub.add_parser("evaluate", help="score clustering on the labelled evaluation set")
+    p_eval.add_argument("--grid", action="store_true", help="sweep the similarity thresholds")
+    for name, helptext in [
+        ("migrate", "apply pending database migrations"),
+        ("embed", "compute embeddings for new articles"),
+        ("stories", "group embedded articles into stories"),
+        ("enrich", "embed + stories"),
+        ("rebuild-stories", "rebuild all stories from stored embeddings"),
+    ]:
+        sub.add_parser(name, help=helptext)
     args = parser.parse_args(argv)
 
     if args.command == "ingest":
@@ -66,6 +82,27 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "load-sample":
         load_sample()
+        return 0
+
+    if args.command == "evaluate":
+        from dznews import evaluate
+
+        return evaluate.main(run_grid=args.grid)
+
+    if args.command in {"migrate", "embed", "stories", "enrich", "rebuild-stories"}:
+        conn = load.get_connection()
+        try:
+            load.ensure_schema(conn)
+            action = {
+                "migrate": lambda c: [],
+                "embed": intel.embed_pending,
+                "stories": intel.assign_pending,
+                "enrich": intel.enrich,
+                "rebuild-stories": intel.reassign_all,
+            }[args.command]
+            print(action(conn))
+        finally:
+            conn.close()
         return 0
 
     conn = load.get_connection()

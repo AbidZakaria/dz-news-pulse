@@ -1,0 +1,35 @@
+# Tunable parameters of the intelligence layer. Every value can be changed without
+# touching code; `python -m dznews.cli evaluate` reports how a change affects quality
+# on the hand-labelled evaluation set in evaluation/ (58 real articles, 24 events).
+# The current values were tuned on that small set: treat its scores as optimistic.
+
+clustering:
+  # An article may only join a story whose latest article is at most this many hours away.
+  window_hours: 72
+
+  # Minimum similarity to join an existing story. Cross-language pairs (French <-> Arabic)
+  # are inherently a bit less similar in the embedding space, so they get a lower bar.
+  threshold_same_language: 0.76
+  threshold_cross_language: 0.71
+
+  # similarity = link_weight * (closest member) + (1 - link_weight) * (story centroid).
+  # 1.0 = judge only by the most similar article already in the story. On the evaluation set
+  # this beat blending in the centroid (F1 0.84 vs 0.80): coverage of one event evolves, so
+  # a late update can resemble the latest article more than the story's average. Chaining
+  # (A~B~C but A!~C) is contained by the time window and by the merge threshold below.
+  link_weight: 1.0
+
+  # Small bonus per distinctive word shared with the closest member (max 3 words).
+  # Helps separate "same event" from "same topic" when the embedding is borderline.
+  shared_term_bonus: 0.02
+
+  # Two stories whose centroids are this similar (and overlap in time) are merged.
+  merge_threshold: 0.90
+
+  # A near-identical copy of another outlet's article (syndication) must not count as
+  # independent coverage: similarity AND headline word overlap must both be very high.
+  duplicate_similarity: 0.97
+  duplicate_title_overlap: 0.85
+
+  # Assignments this far above the threshold are labelled "high" confidence, others "medium".
+  high_confidence_margin: 0.06

@@ -61,3 +61,40 @@ models:
       - name: date_key
         data_tests:
           - relationships: {to: ref('dim_date'), field: date_key}
+
+  - name: dim_story
+    description: One row per live story (articles about the same real-world event).
+    columns:
+      - name: story_key
+        data_tests: [unique, not_null]
+      - name: headline
+        data_tests: [not_null]
+      - name: article_count
+        data_tests: [not_null]
+      - name: independent_source_count
+        description: Distinct outlets, not counting copies of another outlet's article.
+        data_tests: [not_null]
+      - name: representative_article_id
+        data_tests:
+          - relationships: {to: ref('fact_articles'), field: article_id}
+      - name: topic_key
+        data_tests:
+          - relationships: {to: ref('dim_topic'), field: topic_key}
+
+  - name: bridge_story_article
+    description: "Grain: one row per article assigned to a live story."
+    columns:
+      - name: article_id
+        data_tests:
+          - unique
+          - not_null
+          - relationships: {to: ref('fact_articles'), field: article_id}
+      - name: story_key
+        data_tests:
+          - not_null
+          - relationships: {to: ref('dim_story'), field: story_key}
+      - name: confidence
+        data_tests:
+          - accepted_values:
+              values: ['high', 'medium', 'seed']
+

@@ -3,14 +3,19 @@
 import psycopg2
 from psycopg2.extras import execute_values
 
-from dznews import config
+from dznews import config, migrate
 from dznews.transform import COLUMNS
 
+# New articles are inserted. Known ones are left alone, except that data we did not
+# capture the first time (full text, tags) is filled in. (xmax = 0) is true only for
+# rows that were really inserted, so the returned flags count genuinely new articles.
 _INSERT_SQL = f"""
     INSERT INTO raw.articles ({", ".join(COLUMNS)})
     VALUES %s
-    ON CONFLICT (article_id) DO NOTHING
-    RETURNING article_id
+    ON CONFLICT (article_id) DO UPDATE SET
+        content    = COALESCE(raw.articles.content, EXCLUDED.content),
+        categories = COALESCE(raw.articles.categories, EXCLUDED.categories)
+    RETURNING (xmax = 0) AS inserted
 """
 
 
@@ -18,27 +23,25 @@ def get_connection():
     return psycopg2.connect(**config.warehouse_dsn(), connect_timeout=10)
 
 
-def ensure_schema(conn) -> None:
-    """Create the raw schema/tables if needed (idempotent)."""
-    with conn.cursor() as cur:
-        cur.execute((config.SQL_DIR / "init.sql").read_text(encoding="utf-8"))
-    conn.commit()
+def ensure_schema(conn) -> list[str]:
+    """Bring the warehouse schema up to date (idempotent). Returns migrations applied."""
+    return migrate.apply_pending(conn)
 
 
 def insert_articles(conn, df) -> int:
-    """Insert new articles; already-known ones are skipped. Returns rows really inserted.
+    """Insert new articles; already-known ones are not duplicated. Returns rows inserted.
 
-    ON CONFLICT DO NOTHING makes every run idempotent: re-running a failed DAG run,
-    or scraping the same feed twice, never creates duplicates.
+    The conflict clause makes every run idempotent: re-running a failed DAG run, or
+    scraping the same feed twice, never creates duplicates.
     """
     if df.empty:
         return 0
     clean = df[COLUMNS].astype(object).where(df[COLUMNS].notna(), None)
     rows = list(clean.itertuples(index=False, name=None))
     with conn.cursor() as cur:
-        inserted = execute_values(cur, _INSERT_SQL, rows, fetch=True)
+        results = execute_values(cur, _INSERT_SQL, rows, fetch=True)
     conn.commit()
-    return len(inserted)
+    return sum(1 for (was_inserted,) in results if was_inserted)
 
 
 def log_run(

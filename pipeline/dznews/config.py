@@ -7,7 +7,9 @@ from pathlib import Path
 # Airflow container (/opt/airflow/pipeline/dznews/...), so the dbt seed path works in both.
 ROOT = Path(__file__).resolve().parents[2]
 SOURCES_CSV = Path(os.getenv("SOURCES_CSV", ROOT / "dbt" / "seeds" / "news_sources.csv"))
-SQL_DIR = Path(__file__).resolve().parent / "sql"
+MIGRATIONS_DIR = Path(__file__).resolve().parent / "migrations"
+INTEL_CONFIG = Path(os.getenv("INTEL_CONFIG", ROOT / "config" / "intelligence.yml"))
+STOPWORDS_CSV = ROOT / "dbt" / "seeds" / "stopwords.csv"
 SAMPLE_DIR = ROOT / "sample_data"
 
 USER_AGENT = "Mozilla/5.0 (compatible; dz-news-pulse/1.0; portfolio data-engineering project)"

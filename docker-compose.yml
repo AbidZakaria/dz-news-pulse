@@ -27,11 +27,15 @@ x-airflow-common: &airflow-common
     WAREHOUSE_PASSWORD: ${WAREHOUSE_PASSWORD:-news}
     # Optional: Slack/Discord-compatible webhook for failure alerts
     ALERT_WEBHOOK_URL: ${ALERT_WEBHOOK_URL:-}
+    # Local embedding model (downloaded once, then cached in the model-cache volume)
+    FASTEMBED_CACHE_PATH: /opt/airflow/model-cache
   volumes:
     - ./airflow/dags:/opt/airflow/dags
     - ./pipeline:/opt/airflow/pipeline
     - ./dbt:/opt/airflow/dbt:ro
+    - ./config:/opt/airflow/config:ro
     - airflow-logs:/opt/airflow/logs
+    - model-cache:/opt/airflow/model-cache
   depends_on:
     airflow-db:
       condition: service_healthy
@@ -55,7 +59,7 @@ services:
 
   # The analytics warehouse: raw -> staging -> intermediate -> marts
   warehouse:
-    image: postgres:16
+    image: pgvector/pgvector:pg16   # PostgreSQL 16 + the pgvector extension (semantic search)
     environment:
       POSTGRES_USER: ${WAREHOUSE_USER:-news}
       POSTGRES_PASSWORD: ${WAREHOUSE_PASSWORD:-news}
@@ -64,7 +68,6 @@ services:
       - "5433:5432"
     volumes:
       - warehouse-data:/var/lib/postgresql/data
-      - ./pipeline/dznews/sql/init.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "${WAREHOUSE_USER:-news}", "-d", "${WAREHOUSE_DB:-news}"]
       interval: 5s
@@ -127,6 +130,7 @@ services:
         condition: service_healthy
 
 volumes:
+  model-cache:
   airflow-db-data:
   airflow-logs:
   warehouse-data:

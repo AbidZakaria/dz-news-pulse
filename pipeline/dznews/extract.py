@@ -36,11 +36,14 @@ def parse_feed(content: bytes) -> list[dict]:
     records = []
     for entry in parsed.entries:
         tags = entry.get("tags") or []
+        full_text = entry.get("content") or []  # <content:encoded>: full text, when published
         records.append(
             {
                 "title": entry.get("title"),
                 "link": entry.get("link"),
                 "summary": entry.get("summary") or entry.get("description"),
+                "content": full_text[0].get("value") if full_text else None,
+                "categories": [t.get("term") for t in tags if t.get("term")],
                 # Keep the *string*: some feeds use non-standard date formats that
                 # feedparser cannot parse, and we handle those ourselves in transform.py.
                 "published_raw": entry.get("published") or entry.get("updated"),
