@@ -7,14 +7,15 @@ from dznews import config, migrate
 from dznews.transform import COLUMNS
 
 # New articles are inserted. Known ones are left alone, except that data we did not
-# capture the first time (full text, tags) is filled in. (xmax = 0) is true only for
+# capture the first time (full text, tags, lead image) is filled in. (xmax = 0) is true only for
 # rows that were really inserted, so the returned flags count genuinely new articles.
 _INSERT_SQL = f"""
     INSERT INTO raw.articles ({", ".join(COLUMNS)})
     VALUES %s
     ON CONFLICT (article_id) DO UPDATE SET
         content    = COALESCE(raw.articles.content, EXCLUDED.content),
-        categories = COALESCE(raw.articles.categories, EXCLUDED.categories)
+        categories = COALESCE(raw.articles.categories, EXCLUDED.categories),
+        image_url  = COALESCE(raw.articles.image_url, EXCLUDED.image_url)
     RETURNING (xmax = 0) AS inserted
 """
 

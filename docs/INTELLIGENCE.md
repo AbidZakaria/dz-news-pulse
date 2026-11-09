@@ -21,7 +21,7 @@ RSS feeds ──► raw.articles ──► embed (local model) ──► assign 
 | Embed | `embeddings.py`, `intel.embed_pending` | Turns *title + opening of the text* into a 768-number vector with `paraphrase-multilingual-mpnet-base-v2` |
 | Cluster | `stories.py`, `intel.assign_pending` | Joins each new article to the best live story or starts a new one |
 | Model | `dbt/models/marts/dim_story.sql` | Adds topic and coverage statistics, with tests |
-| Serve | `api/app/main.py` | `/stories`, `/stories/{id}` |
+| Serve | `api/app/main.py` | `/stories`, `/stories/{id}`, `/briefing` (a day's most covered stories) |
 
 Processing is **incremental**: `intel.article_nlp` records the status, model and version of
 every article, so only new articles are processed. A failure on one article is stored on

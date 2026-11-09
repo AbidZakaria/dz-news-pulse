@@ -1,5 +1,7 @@
 """API tests run without a database: the SQL layer is replaced by a fake."""
 
+from datetime import date
+
 import pytest
 from fastapi.testclient import TestClient
 from psycopg2 import errors
@@ -73,20 +75,88 @@ def test_missing_tables_give_a_helpful_503(monkeypatch):
     assert "dz_news_pulse" in response.json()["detail"]
 
 
-def test_overview_merges_warehouse_and_story_totals(monkeypatch):
-    answers = iter([[{"total_articles": 10}], [{"stories": 4, "multi_source_stories": 1}]])
+def test_overview_merges_warehouse_story_and_collection_totals(monkeypatch):
+    answers = iter([
+        [{"total_articles": 10}],
+        [{"stories": 4, "multi_source_stories": 1}],
+        [{"last_run_at": "2026-11-09T18:00:00+00:00", "sources_failing": 0}],
+    ])
     monkeypatch.setattr(main, "query", lambda *_a, **_k: next(answers))
     assert client.get("/overview").json() == {
         "total_articles": 10, "stories": 4, "multi_source_stories": 1,
+        "last_run_at": "2026-11-09T18:00:00+00:00", "sources_failing": 0,
     }
 
 
 def test_stories_filters_are_passed_through(fake_query):
-    client.get("/stories?days=3&min_sources=2&topic=economy&language=ar&limit=5")
+    client.get("/stories?days=3&hours=24&on=2026-11-09&min_sources=2&topic=economy&language=ar"
+               "&sort=recent&limit=5")
     assert fake_query.calls[0][1] == {
-        "days": 3, "min_sources": 2, "min_articles": 1, "topic": "economy",
-        "language": "ar", "limit": 5,
+        "days": 3, "hours": 24, "date": date(2026, 11, 9), "min_sources": 2, "min_articles": 1,
+        "topic": "economy", "language": "ar", "sort": "recent", "limit": 5,
     }
+
+
+@pytest.mark.parametrize("url", ["/stories?sort=popular", "/stories?hours=0", "/stories?on=yesterday",
+                                 "/activity?window=1y", "/search?q=a", "/search"])
+def test_new_endpoints_reject_bad_parameters(fake_query, url):
+    assert client.get(url).status_code == 422
+    assert fake_query.calls == []
+
+
+def test_activity_uses_hourly_or_daily_buckets(fake_query):
+    fake_query.rows = [{"bucket": "2026-11-09", "fr": 1, "ar": 2}]
+    hourly = client.get("/activity").json()
+    daily = client.get("/activity?window=30d").json()
+    assert hourly["unit"] == "hour" and daily["unit"] == "day"
+    assert fake_query.calls[0][0] == main.queries.ACTIVITY_HOURLY
+    assert fake_query.calls[1] == (main.queries.ACTIVITY_DAILY, {"days": 30})
+
+
+def test_briefing_defaults_to_the_newest_day(monkeypatch):
+    calls = []
+
+    def fake(sql, params=None):
+        calls.append((sql, params))
+        if sql == main.queries.BRIEFING_DAYS:
+            return [{"day": date(2026, 11, 9), "articles": 5}, {"day": date(2026, 11, 8), "articles": 3}]
+        if sql == main.queries.BRIEFING_DAY:
+            return [{"articles": 5, "sources": 2, "fr": 2, "ar": 3}]
+        return []
+
+    monkeypatch.setattr(main, "query", fake)
+    body = client.get("/briefing").json()
+    assert body["date"] == "2026-11-09" and body["articles"] == 5
+    story_call = next(p for s, p in calls if s == main.queries.STORIES)
+    assert story_call["date"] == date(2026, 11, 9) and story_call["min_sources"] == 2
+
+
+def test_briefing_without_data_is_a_404(fake_query):
+    assert client.get("/briefing").status_code == 404
+
+
+def test_unknown_topic_is_a_404(fake_query):
+    assert client.get("/topics/astrology").status_code == 404
+
+
+def test_search_normalises_terms_and_strips_the_total_column(fake_query):
+    fake_query.rows = [{"article_id": "a", "title": "x", "total": 7}]
+    body = client.get("/search?q=Économie%20les%20exportations").json()
+    sql, params = fake_query.calls[0]
+    assert params["terms"] == ["economie", "les", "exportation"]
+    assert body["total"] == 7 and body["results"] == [{"article_id": "a", "title": "x"}]
+
+
+def test_search_with_only_punctuation_does_not_hit_the_database(fake_query):
+    assert client.get("/search?q=%21%21").json()["total"] == 0
+    assert fake_query.calls == []
+
+
+def test_dashboard_files_are_served_and_always_revalidated():
+    for path in ["/", "/static/js/app.js", "/static/css/app.css"]:
+        response = client.get(path)
+        assert response.status_code == 200, path
+        assert response.headers["cache-control"] == "no-cache"
 
 
 def test_story_detail_includes_articles(monkeypatch):

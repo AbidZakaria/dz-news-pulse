@@ -1,5 +1,7 @@
 """Extract: download an RSS feed and turn it into plain dicts."""
 
+import re
+
 import feedparser
 import requests
 from requests.adapters import HTTPAdapter
@@ -30,6 +32,29 @@ def fetch_feed(url: str) -> bytes:
     return response.content
 
 
+_IMG_SRC_RE = re.compile(r"""<img\b[^>]*?\bsrc\s*=\s*["']([^"']+)["']""", re.IGNORECASE)
+
+
+def find_image(entry) -> str | None:
+    """The article's lead image, in the order outlets tend to publish it.
+
+    WordPress media plugins use <media:content>, some feeds an image <enclosure>, and the
+    rest embed the picture as the first <img> of the full text or the summary.
+    """
+    for media in (entry.get("media_content") or []) + (entry.get("media_thumbnail") or []):
+        url = media.get("url")
+        if url and (media.get("medium") in (None, "image") or "image" in (media.get("type") or "")):
+            return url
+    for link in entry.get("links") or []:
+        if link.get("rel") == "enclosure" and (link.get("type") or "").startswith("image"):
+            return link.get("href")
+    for block in [*(c.get("value", "") for c in entry.get("content") or []), entry.get("summary", "")]:
+        match = _IMG_SRC_RE.search(block or "")
+        if match:
+            return match.group(1)
+    return None
+
+
 def parse_feed(content: bytes) -> list[dict]:
     """Parse RSS/Atom bytes into raw records (strings only, nothing cleaned yet)."""
     parsed = feedparser.parse(content)
@@ -44,6 +69,7 @@ def parse_feed(content: bytes) -> list[dict]:
                 "summary": entry.get("summary") or entry.get("description"),
                 "content": full_text[0].get("value") if full_text else None,
                 "categories": [t.get("term") for t in tags if t.get("term")],
+                "image_url": find_image(entry),
                 # Keep the *string*: some feeds use non-standard date formats that
                 # feedparser cannot parse, and we handle those ourselves in transform.py.
                 "published_raw": entry.get("published") or entry.get("updated"),

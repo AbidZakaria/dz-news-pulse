@@ -9,7 +9,7 @@ import html
 import re
 from datetime import UTC, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 import pandas as pd
 
@@ -27,6 +27,7 @@ COLUMNS = [
     "category_raw",
     "content",
     "categories",
+    "image_url",
     "language",
     "fetched_at",
     "batch_id",
@@ -50,7 +51,7 @@ _MAX_CONTENT_CHARS = 20000
 
 def clean_text(value: str | None, max_len: int | None = None) -> str | None:
     """Strip HTML tags/entities and collapse whitespace. Returns None for empty text."""
-    if not value:
+    if not isinstance(value, str) or not value:  # pandas stores a missing field as NaN
         return None
     text = _WP_FOOTER_RE.sub("", value)
     text = _TAG_RE.sub(" ", text)
@@ -71,6 +72,19 @@ def _clean_categories(value) -> list[str] | None:
         if cleaned:
             seen.setdefault(cleaned)
     return list(seen) or None
+
+
+def clean_image_url(value, article_url) -> str | None:
+    """An absolute http(s) image link, or None. Relative links are resolved on the article."""
+    if not isinstance(value, str) or not value.strip():
+        return None
+    url = html.unescape(value.strip())
+    if isinstance(article_url, str) and article_url:
+        url = urljoin(article_url, url)
+    parts = urlsplit(url)
+    if parts.scheme not in ("http", "https") or not parts.netloc or len(url) > 1000:
+        return None
+    return url
 
 
 def canonical_url(url: str) -> str:
@@ -129,6 +143,11 @@ def build_articles_frame(
     df["content"] = df["content"].map(lambda v: clean_text(v, _MAX_CONTENT_CHARS))
     df["categories"] = df["categories"].map(_clean_categories)
     df["url"] = df["link"].map(lambda v: canonical_url(v) if isinstance(v, str) and v else None)
+    if "image_url" not in df:
+        df["image_url"] = None
+    df["image_url"] = [
+        clean_image_url(img, url) for img, url in zip(df["image_url"], df["url"], strict=True)
+    ]
 
     # Validation: an article without a title or a link is useless -> reject.
     valid = df["title"].notna() & df["url"].notna()

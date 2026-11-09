@@ -28,6 +28,7 @@ cleaned as (
         language,
         nullif(trim(author), '')                       as author,
         nullif(trim(category_raw), '')                 as category_raw,
+        nullif(trim(image_url), '')                    as image_url,
         fetched_at,
         -- Missing or future dates (clock skew, bad feeds) fall back to the fetch time.
         case
